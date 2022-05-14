@@ -77,13 +77,7 @@ export default {
 </script>
 
 <style>
-.end-card{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 .image-card{
     display: flex;
@@ -128,10 +122,6 @@ export default {
 
 
 @media screen and (max-width: 800px){
-    .end-card{
-      justify-content: center;
-      height: 400px;
-    }
 
     .image-card{
         flex-flow: column;

@@ -131,6 +131,13 @@ h1{
   width: 100%;
 }
 
+.end-card{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
 @media screen and (max-width: 800px){
     h1{
       font-size: 50px;
@@ -138,4 +145,10 @@ h1{
     .space{
       height: 50px;
     }
+
+    .end-card{
+      justify-content: center;
+      height: 400px;
+    }
+    
 }
