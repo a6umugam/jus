@@ -104,6 +104,7 @@ export default {
 }
 
 .image-card div img{
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -130,6 +131,10 @@ export default {
     .end-card{
       justify-content: center;
       height: 400px;
+    }
+
+    .image-card{
+        flex-flow: column;
     }
 }
 </style>

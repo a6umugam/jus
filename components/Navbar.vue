@@ -11,6 +11,11 @@
               <button v-on:click="goto('/contact')">Contact Us</button>
           </div>
       </div>
+      <div class="mobile-bar">
+        <a href="/services">Services</a>
+        <a href="/portfolio">Portfolio</a>
+        <a href="/about">About Us</a>
+      </div>
   </div>
 </template>
 
@@ -25,19 +30,29 @@ export default {
 </script>
 
 <style>
+.mobile-bar{
+    background-color: #0f171f;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 40px;
+    align-items: center;
+    display: none;
+}
+
 .logo{
     cursor: pointer;
 }
 .navbar{
     display: flex;
+    flex-flow: column;
     width: 100%;
     justify-content: center;
     align-items: center;
-    height: 100px;
-    padding: 10px;
+    /* height: 100px; */
 }
 
 .navbar-content{
+    padding: 10px;
     display: flex;
     width: 100vw;
     max-width: 1100px;
@@ -55,6 +70,11 @@ export default {
 @media screen and (max-width: 800px){
     .nav-links{
         display: none;
+    }
+
+    .mobile-bar{
+        display: flex;
+        margin-bottom: 20px;
     }
 }
 

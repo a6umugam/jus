@@ -96,6 +96,7 @@ export default {
 }
 
 .about-container p{
+    padding: 10px;
     text-align: center;
   color: #fff;
   font-size: large;
