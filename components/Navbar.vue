@@ -6,15 +6,28 @@
               <a href="/services">Services</a>
               <a href="/portfolio">Portfolio</a>
               <a href="/about">About Us</a>
+              <a href="/about">Contact Us</a>
           </div>
           <div class="nav-buttons">
-              <button v-on:click="goto('/contact')">Contact Us</button>
+              <button v-on:click="goto('/contact')">Get Free Quotation</button>
           </div>
       </div>
       <div class="mobile-bar">
         <a href="/services">Services</a>
         <a href="/portfolio">Portfolio</a>
         <a href="/about">About Us</a>
+      </div>
+
+      <div class="info-bar">
+        <div>
+            <section>
+            <p>Gatineau : 5142923162</p>
+            <p>Email : contact@jus.ca</p>
+            </section>
+            <a href="#">Work with us</a>
+            <a href="#">Web Design</a>
+            <a href="#">Mobile App Development</a>
+        </div>
       </div>
   </div>
 </template>
@@ -30,6 +43,25 @@ export default {
 </script>
 
 <style>
+.info-bar{
+    background-color: #0f171f;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 80px;
+    align-items: center;
+    display: flex;
+}
+.info-bar div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+}
+.info-bar p{
+    color: #A2B8D2;
+    font-size: large;
+}
 .mobile-bar{
     background-color: #0f171f;
     width: 100%;
