@@ -70,6 +70,7 @@ export default {
 .info-bar h2{
     color: white;
 }
+
 .mobile-bar{
     background-color: #0f171f;
     width: 100%;
@@ -115,6 +116,10 @@ export default {
     .mobile-bar{
         display: flex;
         margin-bottom: 20px;
+    }
+
+    .info-bar{
+        display: none;
     }
 }
 

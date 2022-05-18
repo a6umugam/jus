@@ -18,7 +18,7 @@
             </p>
           </div>
     </div>
-    
+
         <p class="subtitle">
             We are a forward thinking Gatineau web design company that produces
             beautiful optimized websites tailored to our clients individual business.
@@ -103,7 +103,7 @@
         <a href="/services" class="o-button">More <img src="~/assets/icons/arrow.svg" alt=">" width="32"></a>
 
 
-        <img class="proc-image" src="~/assets/jus_proc.jpg" alt="banner">
+        <img class="cover-image" src="~/assets/jus_proc.jpg" alt="process">
 
         <a href="/services" class="o-button"><img src="~/assets/icons/email.svg" alt=">" width="32"> Lets Get Started</a>
         <div class="space"></div>
