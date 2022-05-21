@@ -1452,6 +1452,11 @@
   resolved "https://registry.npmjs.org/@polka/url/-/url-1.0.0-next.21.tgz"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
+"@tawk.to/tawk-messenger-vue-2@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@tawk.to/tawk-messenger-vue-2/-/tawk-messenger-vue-2-1.0.3.tgz#3d0bd1a6a5186fa73e8a219fb815475aebf0c7fd"
+  integrity sha512-G4EnDSz32/UzEwtwOvmc04o9sRKPaOVyxvJkgTTO0vvwk4tbES6WrCcOnoCH0JCDtbfSRuvhk4hrCGlQ/m/rqg==
+
 "@types/anymatch@*":
   version "3.0.0"
   resolved "https://registry.npmjs.org/@types/anymatch/-/anymatch-3.0.0.tgz"

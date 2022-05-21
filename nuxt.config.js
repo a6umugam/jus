@@ -9,6 +9,13 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script:[
+      {
+        hid:'tawk.to',
+        src: 'https://embed.tawk.to/628906ddb0d10b6f3e735e6c/1g3jk5kgn',
+        defer:true
+      }
+    ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -17,7 +24,12 @@ export default {
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+    {
+      src: '~/plugins/tawk-messenger.client.js',
+      mode : 'client'
+    }
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
