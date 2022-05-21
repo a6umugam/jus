@@ -7,6 +7,18 @@
         solving your problems by making a product
         that will exceed your expectations so far</p> -->
 
+    <div class="info-bar">
+          <div>
+            <h2>
+              Website, Software & Mobile App
+            </h2>
+
+            <p>
+              We pride ourselves on guiding our clients to success - and creating intelligent solutions that minimize risks and maximize rewards.
+            </p>
+          </div>
+    </div>
+
         <p class="subtitle">
             We are a forward thinking Gatineau web design company that produces
             beautiful optimized websites tailored to our clients individual business.
@@ -91,9 +103,9 @@
         <a href="/services" class="o-button">More <img src="~/assets/icons/arrow.svg" alt=">" width="32"></a>
 
 
-        <img class="proc-image" src="~/assets/jus_proc.jpg" alt="banner">
+        <img class="cover-image" src="~/assets/jus_proc.jpg" alt="process">
 
-        <a href="/services" class="o-button"><img src="~/assets/icons/email.svg" alt=">" width="32"> <p>| Lets Get Started</p></a>
+        <a href="/services" class="o-button"><img src="~/assets/icons/email.svg" alt=">" width="32"> Lets Get Started</a>
         <div class="space"></div>
         <h1>Our Latest Project</h1>
 
@@ -137,6 +149,10 @@ export default {
     margin-top: 20px;
     border: 2px solid #F6F873;
     padding: 10px 15px;
+}
+
+.o-button img{
+    margin: 5px;
 }
 
 .image-card{

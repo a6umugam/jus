@@ -1,5 +1,6 @@
 <template>
   <div class="navbar">
+
       <div class="navbar-content">
           <img src="~/assets/jus-logo.svg" alt="logo" width=64 v-on:click="goto('/')" class="logo">
           <div class="nav-links">
@@ -29,6 +30,9 @@
             <a href="#">Mobile App Development</a>
         </div>
       </div>
+
+
+
   </div>
 </template>
 
@@ -62,6 +66,11 @@ export default {
     color: #A2B8D2;
     font-size: large;
 }
+
+.info-bar h2{
+    color: white;
+}
+
 .mobile-bar{
     background-color: #0f171f;
     width: 100%;
@@ -107,6 +116,10 @@ export default {
     .mobile-bar{
         display: flex;
         margin-bottom: 20px;
+    }
+
+    .info-bar{
+        display: none;
     }
 }
 
