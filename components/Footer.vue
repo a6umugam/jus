@@ -22,7 +22,7 @@
           </section>
       </div>
 
-        <br>
+
       <div class="rights">
           <p>© 2022 JUS Multi Creation. All rights reserved.</p>
       </div>
@@ -37,6 +37,7 @@ export default {
 
 <style>
 .rights{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;

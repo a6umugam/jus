@@ -2,7 +2,7 @@
   <div class="navbar">
 
       <div class="navbar-content">
-          <img src="~/assets/jus-logo.svg" alt="logo" width=64 v-on:click="goto('/')" class="logo">
+          <img src="~/assets/jus_final_logo.svg" alt="logo" width=200 v-on:click="goto('/')" class="logo">
           <div class="nav-links">
               <a href="/services">Services</a>
               <a href="/portfolio">Portfolio</a>

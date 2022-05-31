@@ -129,6 +129,8 @@ h1{
 
 .cover-image{
   width: 100%;
+  border-radius: 45px;
+  padding: 21px;
 }
 
 .end-card{

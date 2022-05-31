@@ -1,7 +1,16 @@
 <template>
   <div class="hero">
     <div class="hero-container">
-        <img class="cover-image" src="~/assets/jus-banner.jpg" alt="banner">
+
+        <div class="media-box">
+            <video class="cover-image" autoplay loop>
+                <source src="~/assets/wings.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video> 
+            <Slogan/>
+        </div>
+
+        <!-- <img class="cover-image" src="~/assets/jus-banner.jpg" alt="banner"> -->
 
         <!-- <p class="subtitle">We are a digital agency that focuses on
         solving your problems by making a product
@@ -20,7 +29,7 @@
     </div>
 
         <p class="subtitle">
-            We are a forward thinking Gatineau web design company that produces
+            <!-- We are a forward thinking Gatineau web design company that produces
             beautiful optimized websites tailored to our clients individual business.
             Whether your need is a new website or a redevelopment, web updates or
             social media development and integration, we have the expertise and
@@ -30,7 +39,7 @@
             Our track record in providing superior products includes Logos, Branding,
             Web Design, Web &amp; App Development, we pretty much do it all.
             <br>
-            <br>
+            <br> -->
             We believe in designing solutions that make you money, but we also want
             to save you money by getting it done right the 1st time!
         </p>
@@ -134,12 +143,20 @@
 </template>
 
 <script>
+import Slogan from './Slogan.vue'
 export default {
 
 }
 </script>
 
 <style>
+
+.media-box{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* flex-flow: column; */
+}
 
 .o-button{
     border-radius: 10px;
