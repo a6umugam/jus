@@ -4,7 +4,7 @@
 
         <div class="media-box">
             <video class="cover-image" autoplay loop>
-                <source src="~/assets/wings.webm" type="video/webm">
+                <source src="~/assets/wings_3d.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video> 
             <Slogan/>
@@ -153,6 +153,7 @@ export default {
 
 .media-box{
     display: flex;
+    width: 90vw;
     justify-content: center;
     align-content: center;
     /* flex-flow: column; */

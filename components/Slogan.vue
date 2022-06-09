@@ -12,7 +12,7 @@
         <span>Of</span>
     </h1>
 
-    <img class="slogan-logo" src="~/assets/jc.svg" alt="j_logo">
+    <img class="slogan-logo" src="~/assets/new_j_icon.svg" alt="j_logo">
 </div>
 </template>
 
@@ -59,7 +59,7 @@ export default {
     position: absolute;
     left: 50%;
     width: 400px;
-    margin-left: -230px;
+    margin-left: -180px;
     transform: scale(0.80);
 }
 
