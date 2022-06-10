@@ -33,6 +33,8 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 750px;
+
 }
 
 .neonText {
@@ -63,11 +65,11 @@ export default {
     transform: scale(0.80);
 }
 
-.slogan-container:hover .slogan-logo{
+/* .slogan-container:hover .slogan-logo{
     transform: scale(1);
     opacity: 1;
     filter: blur(0px);
-}
+} */
 
 .slogan {
     font-size: calc(6px + 2vw);;
@@ -85,11 +87,11 @@ export default {
 }
 
 
-.slogan-container:hover .slogan{
+/* .slogan-container:hover .slogan{
 transform: scale(0.94);
   opacity: 0;
   filter: blur(4px);
-}
+} */
 
 @keyframes scale {
   100% {
