@@ -9,7 +9,9 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  background-color: #16202a;
+  background-color: #fff;
+  color: #000;
+  /* background-color: #16202a; */
 }
 *,
 *::before,
@@ -62,19 +64,19 @@ button:hover {
 
 a{
   text-decoration: none;
-  color: #A2B8D2;
+  color: #000;
   font-size: large;
   transition: 0.5s;
 
 }
 
 a:hover{
-  color: #fff;
+  color: var(--sky-color);
 }
 
 .subtitle{
   text-align: center;
-  color: #fff;
+  color: #000;
   font-size: large;
   max-width: 900px;
   padding: 10px;
@@ -82,7 +84,7 @@ a:hover{
 
 h1{
   font-size:70px ;
-  color: #fff;
+  color: #000;
 }
 
 .space{
@@ -94,6 +96,10 @@ h1{
   width: 100%;
   justify-content: center;
   align-items: center;
+}
+
+.smooth-border{
+  border-radius: 10px;
 }
 
 .cards-holder{
@@ -108,12 +114,13 @@ h1{
   display: flex;
   flex-flow: column;
   justify-content: space-around;
+  align-items: center;
   width: 300px;
   height: 300px;
-  background-color: #213040;
+  /* background-color: #213040; */
   margin: 10px;
   padding: 10px;
-  color: #fff;
+  color: #000;
   border-radius: 10px;
   transition: 0.5s;
 }
@@ -122,15 +129,19 @@ h1{
   width: 50px;
 }
 
-.card:hover{
+/* .card:hover{
   background-color: #F6F873;
   color: #000;
-}
+} */
 
 .cover-image{
   width: 100%;
   border-radius: 45px;
   padding: 21px;
+}
+
+.proc-image{
+  width: 80%;
 }
 
 .end-card{
@@ -151,6 +162,10 @@ h1{
     .end-card{
       justify-content: center;
       height: 400px;
+    }
+
+    .proc-image{
+      width: 100%;
     }
     
 }

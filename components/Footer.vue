@@ -73,7 +73,7 @@ export default {
 
 .footer-content section p{
     font-size: large;
-    color: #A2B8D2;
+    color: #5d6a79;
 }
 
 @media screen and (max-width: 800px){

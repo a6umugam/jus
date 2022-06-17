@@ -4,10 +4,10 @@
 
         <div class="media-box">
             <video class="cover-image" autoplay loop>
-                <source src="~/assets/wings_3d.mp4" type="video/mp4">
+                <source src="~/assets/white_wings_new.webm" type="video/mp4">
                 Your browser does not support the video tag.
             </video> 
-            <Slogan/>
+            <!-- <Slogan/> -->
         </div>
 
         <!-- <img class="cover-image" src="~/assets/jus-banner.jpg" alt="banner"> -->
@@ -16,7 +16,11 @@
         solving your problems by making a product
         that will exceed your expectations so far</p> -->
 
-    <div class="info-bar">
+        <h1 class="text-slogan">
+            Building The <strong>Websites</strong>  & <strong>Apps</strong>, You've Always <strong>Dreamed</strong> Of
+        </h1>
+
+    <div class="info-bar smooth-border">
           <div>
             <h2>
               Website, Software & Mobile App
@@ -67,7 +71,7 @@
         <!-- <div class="space"></div> -->
 
 
-        <h1>Our Services</h1>
+        <!-- <h1>Our Services</h1>
         <p class="subtitle">We always provide an unforgettable service</p>
 
         <div class="cards-holder">
@@ -107,18 +111,19 @@
                 <p>We provide hosting for all of the websites we create, allowing you the peace of mind that we are only a phone call away.</p>
             </div>
 
-        </div>
+        </div> -->
         
-        <a href="/services" class="o-button">More <img src="~/assets/icons/arrow.svg" alt=">" width="32"></a>
+        <!-- <a href="/services" class="o-button">More <img src="~/assets/icons/arrow.svg" alt=">" width="32"></a> -->
 
 
-        <img class="cover-image" src="~/assets/jus_proc.jpg" alt="process">
+        <img class="proc-image" src="~/assets/jus_proc.png" alt="process">
 
         <a href="/services" class="o-button"><img src="~/assets/icons/email.svg" alt=">" width="32"> Lets Get Started</a>
         <div class="space"></div>
-        <h1>Our Latest Project</h1>
+        
+        <!-- <h1>Our Latest Project</h1> -->
 
-        <div class="image-card">
+        <!-- <div class="image-card">
             <div>
                 <img src="~/assets/statistic.jpg" alt="statistic-banner">
             </div>
@@ -135,7 +140,7 @@
             <h1>Lets Discuss <br> For a Cool Project!</h1>
             <button>Get Free Quotation Now</button>
         </div>
-        <div class="space"></div>
+        <div class="space"></div> -->
 
 
     </div>
@@ -150,6 +155,15 @@ export default {
 </script>
 
 <style>
+.text-slogan{
+    color: #181818;
+    margin-bottom: 50px;
+}
+
+.text-slogan strong{
+    font-weight: bolder;
+    color: greenyellow;
+}
 
 .media-box{
     display: flex;
@@ -166,7 +180,7 @@ export default {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    border: 2px solid #F6F873;
+    border: 2px solid greenyellow;
     padding: 10px 15px;
 }
 

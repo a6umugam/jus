@@ -2,9 +2,9 @@
   <div class="navbar">
 
       <div class="navbar-content">
-          <img src="~/assets/new_logo.svg" alt="logo" width=250 heigh v-on:click="goto('/')" class="logo">
+          <img src="~/assets/new_logo.svg" alt="logo" width=350 heigh v-on:click="goto('/')" class="logo">
           <div class="nav-links">
-              <a href="/services">Services</a>
+              <a href="/services">What we Offer</a>
               <a href="/portfolio">Portfolio</a>
               <a href="/about">About Us</a>
               <a href="/about">Contact Us</a>
@@ -22,12 +22,13 @@
       <div class="info-bar">
         <div>
             <section>
-            <p>Gatineau : 5142923162</p>
+            <p>Call Us : 514.292.3162</p>
             <p>Email : contact@jus.ca</p>
             </section>
-            <a href="#">Work with us</a>
+            <p>We pride ourselves on guiding our clients to success - and creating intelligent solutions that minimize risks and maximize rewards. </p>
+            <!-- <a href="#">Work with us</a>
             <a href="#">Web Design</a>
-            <a href="#">Mobile App Development</a>
+            <a href="#">Mobile App Development</a> -->
         </div>
       </div>
 
@@ -48,12 +49,16 @@ export default {
 
 <style>
 .info-bar{
-    background-color: #0f171f;
+    background-color: #48ff87;
     width: 100%;
     justify-content: space-evenly;
     height: 80px;
     align-items: center;
     display: flex;
+}
+
+.info-bar section{
+    width: 400px;
 }
 .info-bar div{
     display: flex;
@@ -63,12 +68,12 @@ export default {
     max-width: 1100px;
 }
 .info-bar p{
-    color: #A2B8D2;
+    color: #435264;
     font-size: large;
 }
 
 .info-bar h2{
-    color: white;
+    color: #181818;
 }
 
 .mobile-bar{
