@@ -7,10 +7,10 @@
               <a href="/services">What we Offer</a>
               <a href="/portfolio">Portfolio</a>
               <a href="/about">About Us</a>
-              <a href="/about">Contact Us</a>
+              <a href="/contact">Contact Us</a>
           </div>
           <div class="nav-buttons">
-              <button v-on:click="goto('/contact')">Get Free Quotation</button>
+              <button v-on:click="formView = !formView" >Get Free Quotation</button>
           </div>
       </div>
       <div class="mobile-bar">
@@ -32,18 +32,24 @@
         </div>
       </div>
 
-
+    <ContactForm v-if="formView" @closeMenu="formView = !formView" />
 
   </div>
 </template>
 
 <script>
 export default {
+    data() {
+    return {
+        formView:false
+    };
+  },
+
     methods:{
         goto(path){
             this.$router.push(path)
         }
-    }
+    },
 }
 </script>
 

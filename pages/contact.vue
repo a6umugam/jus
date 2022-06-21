@@ -5,7 +5,7 @@
           
         <div class="about-container">
 
-        <h2 style="color:#A2B8D2">Contact us</h2>
+        <h2 style="color:#A2B8D2; margin-top:20px">Contact us</h2>
         <h1>Let's start somethig <br> big together.</h1>
         <br>
         <p class="about-container-sub">If you have any questions about or services or to find out more about how JUS Multi Creation can help your company get noticed please contact us via email or telephone.
@@ -70,7 +70,7 @@ export default {
 
 .about-container-sub{
     text-align: center;
-  color: #fff;
+  color: #5d6a79;
   font-size: large;
 }
 
@@ -90,10 +90,10 @@ export default {
   justify-content: space-around;
   width: 600px;
   height: 150px;
-  background-color: #213040;
+  background-color: #eef6ff;
   margin: 10px;
   padding: 10px;
-  color: #fff;
+  color: black;
   border-radius: 10px;
   transition: 0.5s;
 }

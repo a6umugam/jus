@@ -129,6 +129,9 @@ h1{
   width: 50px;
 }
 
+.card p{
+  color: #5d6a79;
+}
 /* .card:hover{
   background-color: #F6F873;
   color: #000;

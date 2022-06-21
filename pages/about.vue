@@ -67,20 +67,29 @@
         <div class="space"></div>
         <div class="end-card">
             <h1>Ready to<br>Work With Us!</h1>
-            <button>Get Free Quotation Now</button>
+            <button v-on:click="formView = !formView" >Get Free Quotation Now</button>
         </div>
         </div>
       </div>
         <div class="space"></div>
       <Footer/>
+      <ContactForm v-if="formView" @closeMenu="formView = !formView" />
+
   </div>
 </template>
 
 <script>
 import Navbar from "~/components/Navbar.vue";
 import Footer from "~/components/Footer.vue";
+import ContactForm from "~/components/ContactForm.vue"
+
 export default {
-    components: { Navbar, Footer }
+    data(){
+        return{
+            formView : false
+    };
+    },
+    components: { Navbar, Footer, ContactForm }
 }
 </script>
 
@@ -98,7 +107,7 @@ export default {
 .about-container p{
     padding: 10px;
     text-align: center;
-  color: #fff;
+  color: #5d6a79;
   font-size: large;
 }
 </style>
