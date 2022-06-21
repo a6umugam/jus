@@ -2,7 +2,7 @@
   <div class="navbar">
 
       <div class="navbar-content">
-          <img src="~/assets/new_logo.svg" alt="logo" width=350 heigh v-on:click="goto('/')" class="logo">
+          <img src="~/assets/jus_metal.svg" alt="logo" width=350 heigh v-on:click="goto('/')" class="logo">
           <div class="nav-links">
               <a href="/services">What we Offer</a>
               <a href="/portfolio">Portfolio</a>
