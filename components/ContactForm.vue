@@ -16,7 +16,7 @@
 </template>
 
 <script>
-const FORMSPARK_ACTION_URL = "https://submit-form.com/QYsMCOVo";
+const FORMSPARK_ACTION_URL = "https://submit-form.com/NS3H4ss2";
 
 export default {
   data() {
