@@ -8,25 +8,25 @@
               <div class="cards-holder">
             <div class="card">
                 <img src="~/assets/icons/award.svg" alt="people">
-                <h2>Website development</h2>
+                <h2>Website Development & Maintenance</h2>
                 <p>We create websites that are optimized to drive results and convert your visitors. Find out how we can help.</p>
             </div>
 
             <div class="card">
                 <img src="~/assets/icons/face.svg" alt="flash">
-                <h2>Branding</h2>
+                <h2>Branding and Logo Design</h2>
                 <p>The most memorable component of any business is their visual identity. Find out how we can help create one that sticks.</p>
             </div>
 
             <div class="card">
                 <img src="~/assets/icons/bulb.svg" alt="flash">
-                <h2>Email Marketing</h2>
-                <p>Email marketing is a great way to maintain contact with visitors that are not ready to convert right away. Learn more here.</p>
+                <h2>Content Marketing</h2>
+                <p>marketing is a great way to maintain contact with visitors that are not ready to convert right away.</p>
             </div>
 
             <div class="card">
                 <img src="~/assets/icons/flash.svg" alt="flash">
-                <h2>Digital Marketing</h2>
+                <h2>Social Media Management</h2>
                 <p>With powerful advertising platforms available, FullView Design can help setup your campaigns and monitor long term results!</p>
             </div>
 
@@ -38,8 +38,50 @@
 
             <div class="card">
                 <img src="~/assets/icons/layout.svg" alt="flash">
-                <h2>Consulting</h2>
+                <h2>Creative Consulting</h2>
                 <p>Have a strong marketing position and just need a little advice to accelerate your campaign? Our consulting services can help!</p>
+            </div>
+
+            <div class="card">
+                <img src="~/assets/icons/color.svg" alt="globe" >
+                <h2>Print</h2>
+                <p>Need print material for your next tradeshow, perhaps a booth designed? Maybe your menu needs a facelift.</p>
+            </div>
+
+            <div class="card">
+                <img src="~/assets/icons/globe.svg" alt="globe" >
+                <h2>Website Hosting</h2>
+                <p>We provide hosting for all of the websites we create, allowing you the peace of mind that we are only a phone call away.</p>
+            </div>
+
+            <div class="card">
+                <img src="~/assets/icons/layout.svg" alt="flash">
+                <h2>IT Support</h2>
+                <p>Have a strong position and just need a little advice to accelerate your tech? Our IT Support services can help!</p>
+            </div>
+
+            <div class="card">
+                <img src="~/assets/icons/color.svg" alt="globe" >
+                <h2>Graphic Designing</h2>
+                <p>The most memorable component of any business is their visual identity. Find out how we can help create one that sticks.</p>
+            </div>
+
+            <div class="card">
+                <img src="~/assets/icons/flash.svg" alt="globe" >
+                <h2>Ecommerce</h2>
+                <p>Have a great idea of selling something online, Just let us help you with our Ecommerce support team.</p>
+            </div>
+
+            <div class="card">
+                <img src="~/assets/icons/lens.svg" alt="globe" >
+                <h2>Software and Application Development</h2>
+                <p>We develop softwares and mobile applications for all size of companies.</p>
+            </div>
+
+            <div class="card">
+                <img src="~/assets/icons/flash.svg" alt="globe" >
+                <h2>Website Design</h2>
+                <p>We create websites that are optimized to drive results and convert your visitors. Find out how we can help.</p>
             </div>
 
         </div>
