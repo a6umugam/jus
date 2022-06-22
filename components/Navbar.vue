@@ -1,31 +1,39 @@
 <template>
   <div class="navbar">
 
+        <div class="info-bar">
+        <div>
+            <p>Call Us : 514.292.3162</p>
+            <p>Email : info@jusmulticreation.ca</p>
+        </div>
+      </div>
+
       <div class="navbar-content">
           <img src="~/assets/jus_metal.svg" alt="logo" width=350 heigh v-on:click="goto('/')" class="logo">
           <div class="nav-links">
               <a href="/services">What we Offer</a>
-              <a href="/portfolio">Portfolio</a>
-              <a href="/about">About Us</a>
-              <a href="/contact">Contact Us</a>
+              <!-- <a href="/portfolio">Portfolio</a> -->
+              <a href="/about">About</a>
+              <a href="/contact">Contact</a>
           </div>
           <div class="nav-buttons">
-              <button v-on:click="formView = !formView" >Get Free Quotation</button>
+              <button v-on:click="formView = !formView" >Free Quote</button>
           </div>
       </div>
       <div class="mobile-bar">
         <a href="/services">Services</a>
         <a href="/portfolio">Portfolio</a>
-        <a href="/about">About Us</a>
+        <a href="/about">About</a>
       </div>
 
       <div class="info-bar">
         <div>
             <section>
-            <p>Call Us : 514.292.3162</p>
-            <p>Email : contact@jus.ca</p>
+            <p>Website, Software &</p>
+            <p>Mobile App</p>
             </section>
-            <p>We pride ourselves on guiding our clients to success - and creating intelligent solutions that minimize risks and maximize rewards. </p>
+            <p>Building The <strong>Websites</strong>  & <strong>Apps</strong>, You've Always <strong>Dreamed</strong> Of. We create professional, Beautiful and unique website designs for small to large businesses</p>
+            <!-- <p>We pride ourselves on guiding our clients to success - and creating intelligent solutions that minimize risks and maximize rewards. </p> -->
             <!-- <a href="#">Work with us</a>
             <a href="#">Web Design</a>
             <a href="#">Mobile App Development</a> -->
@@ -58,8 +66,8 @@ export default {
     background-color: #48ff87;
     width: 100%;
     justify-content: space-evenly;
-    height: 80px;
     align-items: center;
+    padding: 5px;
     display: flex;
 }
 

@@ -2,8 +2,16 @@
   <div class="contact-form">
     <form  @submit.prevent="submitForm">
     <label class="contact-email">
+      <span>Name</span>
+      <input placeholder="Your name" type="text" v-model="name" name="name">
+    </label>
+    <label class="contact-email">
+      <span>Phone</span>
+      <input placeholder="Your Phone/ Mobile Number" type="text" v-model="phone" name="phone">
+    </label>
+    <label class="contact-email">
       <span>Email</span>
-      <input placeholder="me@example.com" type="email" v-model="email" name="email">
+      <input placeholder="me@example.com" type="text" v-model="email" name="email">
     </label>
     <label class="contact-message">
       <span>Your Requirement / Query</span>
@@ -24,6 +32,8 @@ export default {
         errormsg:'',
         message: "",
         email:"",
+        phone:'',
+        name:''
     };
   },
   methods: {
@@ -41,8 +51,10 @@ export default {
             Accept: "application/json",
             },
             body: JSON.stringify({
-            message: this.message,
-            email: this.email
+              name:this.name,
+              phone:this.phone,
+              email: this.email,
+              message: this.message,
             }),
         });
         alert("Form submitted");
@@ -83,7 +95,7 @@ export default {
     border-radius: 12px;
     width: 100%;
     max-width: 600px;
-    height: 500px;
+    height: 600px;
     padding: 25px;
 }
 

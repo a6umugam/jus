@@ -17,7 +17,7 @@
         that will exceed your expectations so far</p> -->
 
         <h1 class="text-slogan">
-            Building The <strong>Websites</strong>  & <strong>Apps</strong>, You've Always <strong>Dreamed</strong> Of
+            Full-service <strong>Web</strong> solutions to help your business<strong> grow!</strong>
         </h1>
 
     <div class="info-bar smooth-border">
@@ -142,6 +142,12 @@
         </div>
         <div class="space"></div> -->
 
+    <p class="subtitle">
+        We have the resources, vision, and experience to design any site for
+        any company With integrity and style. Our team of top web designers
+        offers effective design solutions with sites that are attractive and
+        functional and can meet both your budget and deadline concerns.
+    </p>
 
     </div>
   </div>

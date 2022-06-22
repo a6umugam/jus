@@ -1,13 +1,18 @@
 <template>
   <div class="footer">
       <div class="footer-content">
-          <section>
-              <h2>JUS Multi Creation</h2>
-              <p>207 Blank Street, Sample 407
-                Ottawa, ON K2P 2N2, Canada</p>
+          <section style="margin-right:110px">
+              <p>Call Us : 514.292.3162</p>
+              <p>info@jusmulticreation.ca</p>
           </section>
 
-          <section>
+        <p>
+        Once your website is launched, we can continue to care for it. With
+        our maintenance plan, You can send us fresh content, images or
+        request layout changes at anytime.
+        </p>
+
+          <!-- <section>
               <h2>Services</h2>
               <a href="#">Social Media</a>
               <a href="#">Branding & UI/UX Design</a>
@@ -19,7 +24,7 @@
               <a href="#">WhatsApp</a>
               <a href="#">Telegram</a>
               <a href="#">Email</a>
-          </section>
+          </section> -->
       </div>
 
 
@@ -52,11 +57,13 @@ export default {
     width: 100%;
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
 }
 
 .footer-content{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     max-width: 1100px;
 }
