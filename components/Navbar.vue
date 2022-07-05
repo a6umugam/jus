@@ -9,7 +9,7 @@
       </div>
 
       <div class="navbar-content">
-          <img src="~/assets/jus_metal.svg" alt="logo" width=350 heigh v-on:click="goto('/')" class="logo">
+          <img src="~/assets/jus_green.svg" alt="logo" width=350 heigh v-on:click="goto('/')" class="logo">
           <div class="nav-links">
               <a href="/services">What we Offer</a>
               <!-- <a href="/portfolio">Portfolio</a> -->
@@ -17,7 +17,7 @@
               <a href="/contact">Contact</a>
           </div>
           <div class="nav-buttons">
-              <button v-on:click="formView = !formView" >Free Quote</button>
+              <button v-on:click="goto('/contact')" >Free Quote</button>
           </div>
       </div>
       <div class="mobile-bar">
@@ -32,7 +32,7 @@
             <p>Website, Software &</p>
             <p>Mobile App</p>
             </section>
-            <p>Building The <strong>Websites</strong>  & <strong>Apps</strong>, You've Always <strong>Dreamed</strong> Of. We create professional, Beautiful and unique website designs for small to large businesses</p>
+            <p>Building the <strong>Websites</strong>  & <strong>Apps</strong>, You've Always <strong>Dreamed</strong> of. We create <strong>professional, beautiful</strong> and <strong>unique</strong> website designs for small to large businesses</p>
             <!-- <p>We pride ourselves on guiding our clients to success - and creating intelligent solutions that minimize risks and maximize rewards. </p> -->
             <!-- <a href="#">Work with us</a>
             <a href="#">Web Design</a>

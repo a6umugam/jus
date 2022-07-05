@@ -76,24 +76,22 @@ export default {
 <style>
 .contact-form{
     display: flex;
-    height: 100vh;
-    width: 100vw;
     top: 0;
-    position: fixed;
+    /* position: fixed; */
     justify-content: center;
     align-items: center;
-    background-color: #00000073;
+    /* background-color: #00000073; */
     padding: 10px;
 }
 
 .contact-form form{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-flow: column;
-    background-color: white;
+    background-color: #eef6ff;
     border-radius: 12px;
-    width: 100%;
+    width: 1100px;
     max-width: 600px;
     height: 600px;
     padding: 25px;

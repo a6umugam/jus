@@ -2,14 +2,21 @@
   <div class="footer">
       <div class="footer-content">
           <section style="margin-right:110px">
-              <p>Call Us : 514.292.3162</p>
-              <p>info@jusmulticreation.ca</p>
+              <a><strong>Office Location</strong></a>
+              <a><img src="~/assets/icons/map.svg" width="28" alt="people"> Gatineau QC, <br> Canada</a>
+              <a></a>
+              <a><img src="~/assets/icons/phone.svg" width="28" alt="people"> +1 (514) 292-3162</a>
+              <a><img src="~/assets/icons/email.svg" width="28" alt="people"> info@jusmulticreation.ca</a>
           </section>
 
         <p>
         Once your website is launched, we can continue to care for it. With
         our maintenance plan, You can send us fresh content, images or
         request layout changes at anytime.
+
+        <br>
+        <br>
+        Let us be part of your team and let us create amazing results for you.
         </p>
 
           <!-- <section>
@@ -78,10 +85,16 @@ export default {
     color: white;
 }
 
-.footer-content section p{
-    font-size: large;
-    color: #5d6a79;
-}
+.footer-content section a{
+    font-size: medium;
+    /* color: #5d6a79; */
+    display: flex;
+    align-items: flex-start;
+    }
+
+    .footer-content section a img{
+    margin-right: 12px;
+    }
 
 @media screen and (max-width: 800px){
     .footer-content{

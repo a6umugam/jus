@@ -5,42 +5,49 @@
           
         <div class="about-container">
 
-        <h2 style="color:#A2B8D2; margin-top:20px">Contact us</h2>
-        <h1>Let's start somethig <br> big together.</h1>
+        <h2 style="color:#A2B8D2; margin-top:20px">Get In Touch</h2>
+        <h1>Gatineau Web Solutions<br> Company</h1>
         <br>
-        <p class="about-container-sub">If you have any questions about or services or to find out more about how JUS Multi Creation can help your company get noticed please contact us via email or telephone.
-            <br><br> We’re only a call away so make the next step in your digital success!</p>
+        <p class="about-container-sub">Do you have a project in mind that you
+                                      wish to discuss with our expert? Don't
+                                      hesitate, we are just a call away! If you
+                                      are unable to call us, you can just fill in
+                                      the simple form below and we will get
+                                      in touch with you as soon as possible.</p>
 
         <div class="space"></div>
 
+    <ContactForm />
+
+
         <div class="contact-holder">
-            <div class="contact">
+            <!-- <div class="contact">
                 <img src="~/assets/icons/map.svg" alt="people">
                 <h2>Location</h2>
                 <p>207 Blank Street, Sample 407 Ottawa, ON K2P 2N2, Canada</p>
-            </div>
+            </div> -->
             <div class="contact">
                 <img src="~/assets/icons/phone.svg" alt="people">
-                <h2>Phone</h2>
-                <p>5142923162</p>
+                <h2>Need help right now?</h2>
+                <p>Call: +1 (514) 292-3162</p>
             </div>
-            <div class="contact">
+            <!-- <div class="contact">
                 <img src="~/assets/icons/email.svg" alt="people">
                 <h2>Email</h2>
                 <p>contact@justmulticreation.com</p>
-            </div>
-            <div class="contact">
+            </div> -->
+            <!-- <div class="contact">
                 <img src="~/assets/icons/whatsapp.svg" alt="people">
                 <h2>WhatsApp</h2>
-            </div>
-            <div class="contact">
+            </div> -->
+            <!-- <div class="contact">
                 <img src="~/assets/icons/telegram.svg" alt="people">
                 <h2>Telegram</h2>
-            </div>
+            </div> -->
         </div>
 
 
-        <div class="space"></div>
+        <!-- <div class="space"></div> -->
 
         </div>
       </div>

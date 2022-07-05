@@ -49,7 +49,39 @@
         </p>
 
         <div class="cards-holder">
-            <div class="card">
+
+        <div class="thecard">
+            <div class="thefront">
+                <img src="~/assets/icons/people.svg" alt="people">
+                <h2>IT Expertise</h2>
+            </div>
+            <div class="theback">
+                <p>We have 30+ trained professionals in different technological areas. Our goal is simple, to provide you with the best experience possible.</p>
+            </div>
+        </div>
+
+        <div class="thecard">
+            <div class="thefront">
+                <img src="~/assets/icons/clock.svg" alt="people">
+                <h2>24/7 Support</h2>
+            </div>
+            <div class="theback">
+                <p>We provide full-time support for all our valuable clients. If you have any
+                questions or run into a problem, we will reply within 30 minutes.</p>
+            </div>
+        </div>
+
+        <div class="thecard">
+            <div class="thefront">
+                <img src="~/assets/icons/card.svg" alt="people">
+                <h2>Affordable Cost</h2>
+            </div>
+            <div class="theback">
+                <p>Our services are affordable and budget-friendly. We never overcharge our valuable clients.</p>
+            </div>
+        </div>
+
+            <!-- <div class="card">
                 <img src="~/assets/icons/people.svg" alt="people">
                 <h2>IT Expertise</h2>
                 <p>We have 20+ expert in our house. we will able to provide you 360° sservice as per your requirements</p>
@@ -65,7 +97,7 @@
                 <img src="~/assets/icons/card.svg" alt="globe" >
                 <h2>Affordable Cost</h2>
                 <p>Our all service is affordable and budget friendly. We never overcharge our valuable clients. Any query just send a message.</p>
-            </div>
+            </div> -->
         </div>
 
         <!-- <div class="space"></div> -->
@@ -118,7 +150,7 @@
 
         <img class="proc-image" src="~/assets/jus_proc.png" alt="process">
 
-        <a href="/services" class="o-button"><img src="~/assets/icons/email.svg" alt=">" width="32"> Lets Get Started</a>
+        <a href="/services" class="o-button"> Lets Get Started</a>
         <div class="space"></div>
         
         <!-- <h1>Our Latest Project</h1> -->
