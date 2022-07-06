@@ -1,7 +1,7 @@
 <template>
   <div class="hero">
     <div class="hero-container">
-
+        <h2 style="margin-top:20px">Promote your product or idea with animated videos</h2>
         <div class="media-box">
             <video class="cover-image" autoplay loop>
                 <source src="~/assets/new_white_wings.webm" type="video/webm">
@@ -150,7 +150,7 @@
 
         <img class="proc-image" src="~/assets/jus_proc.png" alt="process">
 
-        <a href="/services" class="o-button"> Lets Get Started</a>
+        <button v-on:click="goto('/contact')"> Lets Get Started</button>
         <div class="space"></div>
         
         <!-- <h1>Our Latest Project</h1> -->
@@ -175,10 +175,10 @@
         <div class="space"></div> -->
 
     <p class="subtitle">
-        We have the resources, vision, and experience to design any site for
-        any company With integrity and style. Our team of top web designers
-        offers effective design solutions with sites that are attractive and
-        functional and can meet both your budget and deadline concerns.
+        We have the <strong>resources, vision,</strong> and <strong>experience</strong> to design any site for
+        any company with integrity and style. Our team of <strong>top web designers</strong> 
+        offers effective design solutions with sites that are<strong> attractive and
+        functional</strong> and can meet both your <strong>budget and deadline</strong> concerns.
     </p>
 
     </div>
@@ -188,7 +188,11 @@
 <script>
 import Slogan from './Slogan.vue'
 export default {
-
+methods:{
+        goto(path){
+            this.$router.push(path)
+        }
+    }
 }
 </script>
 
@@ -199,6 +203,11 @@ export default {
 }
 
 .text-slogan strong{
+    font-weight: bolder;
+    color: greenyellow;
+}
+
+.subtitle strong{
     font-weight: bolder;
     color: greenyellow;
 }

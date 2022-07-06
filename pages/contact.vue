@@ -5,15 +5,17 @@
           
         <div class="about-container">
 
-        <h2 style="color:#A2B8D2; margin-top:20px">Get In Touch</h2>
-        <h1>Gatineau Web Solutions<br> Company</h1>
+        <div class="image-bg">
+        <h1 style="color:#2a5487">Get In Touch</h1>
+        <h1 > Gatineau Web Solutions<br> <strong>Company</strong></h1>
         <br>
-        <p class="about-container-sub">Do you have a project in mind that you
+        <p class="about-container-sub" style="color:#fff;background-color: #2d343b98;padding:5px;border-radius:10px">Do you have a project in mind that you
                                       wish to discuss with our expert? Don't
                                       hesitate, we are just a call away! If you
                                       are unable to call us, you can just fill in
                                       the simple form below and we will get
                                       in touch with you as soon as possible.</p>
+        </div>
 
         <div class="space"></div>
 
@@ -52,7 +54,7 @@
         </div>
       </div>
         <div class="space"></div>
-      <Footer/>
+      <Footer :textData="footerText" :altText="'A one-stop-shop for all your portal, web, and digital marketing requirements, now and in the future. '"/>
   </div>
 </template>
 
@@ -60,11 +62,25 @@
 import Navbar from "~/components/Navbar.vue";
 import Footer from "~/components/Footer.vue";
 export default {
+  data(){
+    return{
+      footerText: "Need to build an online tool or platform that doesn't exist yet? We can help."
+    }
+  },
     components: { Navbar, Footer }
 }
 </script>
 
 <style>
+.image-bg{
+  background-image: url("~assets/gatineau.jpg");
+  background-size: cover;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  
+
+}
 .about-container{
     display: flex;
     width: 100%;

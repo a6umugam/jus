@@ -3,7 +3,7 @@
       <Navbar/>
       <div class="container">
           <div class="about-container">
-                <h1>What do We Offer?</h1>
+                <h1>What do We <strong>Offer?</strong></h1>
 
               <div class="cards-holder">
 
@@ -102,7 +102,7 @@
                 </div>
             </div>
 
-            <div class="thecard">
+            <!-- <div class="thecard">
                 <div class="thefront">
                 <img src="~/assets/icons/layout.svg" alt="flash">
                 <h2>Creative Consulting</h2>
@@ -110,9 +110,9 @@
                 <div class="theback">
                 <p>Have a strong marketing position and just need a little advice to accelerate your campaign? Our consulting services can help!</p>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="thecard">
+            <!-- <div class="thecard">
                 <div class="thefront">
                 <img src="~/assets/icons/color.svg" alt="globe" >
                 <h2>Print</h2>
@@ -120,9 +120,9 @@
                 <div class="theback">
                 <p>Need print material for your next tradeshow, perhaps a booth designed? Maybe your menu needs a facelift.</p>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="thecard">
+            <!-- <div class="thecard">
                 <div class="thefront">
                 <img src="~/assets/icons/globe.svg" alt="globe" >
                 <h2>Website Hosting</h2>
@@ -130,9 +130,9 @@
                 <div class="theback">
                 <p>We provide hosting for all of the websites we create, allowing you the peace of mind that we are only a phone call away.</p>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="thecard">
+            <!-- <div class="thecard">
                 <div class="thefront">
                 <img src="~/assets/icons/layout.svg" alt="flash">
                 <h2>IT Support</h2>
@@ -140,9 +140,9 @@
                 <div class="theback">
                 <p>Have a strong position and just need a little advice to accelerate your tech? Our IT Support services can help!</p>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="thecard">
+            <!-- <div class="thecard">
                 <div class="thefront">
                 <img src="~/assets/icons/color.svg" alt="globe" >
                 <h2>Graphic Designing</h2>
@@ -150,7 +150,7 @@
                 <div class="theback">
                 <p>The most memorable component of any business is their visual identity. Find out how we can help create one that sticks.</p>
                 </div>
-            </div>
+            </div> -->
 
             <div class="thecard">
                 <div class="thefront">
@@ -205,13 +205,13 @@
 
         <div class="space"></div>
         <div class="end-card">
-            <h1>Let's create<br> together!</h1>
+            <h1>Let's create together!</h1>
             <button v-on:click="goto('/contact')" >Get Free Quotation Now</button>
         </div>
         </div>
       </div>
         <div class="space"></div>
-      <Footer/>
+      <Footer :textData="'Every business needs a strong online presence to compete in the current marketplace.'"/>
       <!-- <ContactForm v-if="formView" @closeMenu="formView = !formView" /> -->
 
   </div>

@@ -2,21 +2,19 @@
   <div class="footer">
       <div class="footer-content">
           <section style="margin-right:110px">
-              <a><strong>Office Location</strong></a>
+              <!-- <a><strong>Office Location</strong></a> -->
               <a><img src="~/assets/icons/map.svg" width="28" alt="people"> Gatineau QC, <br> Canada</a>
-              <a></a>
+              <a style="padding:5px"></a>
               <a><img src="~/assets/icons/phone.svg" width="28" alt="people"> +1 (514) 292-3162</a>
+              <a style="padding:5px"></a>
               <a><img src="~/assets/icons/email.svg" width="28" alt="people"> info@jusmulticreation.ca</a>
           </section>
 
         <p>
-        Once your website is launched, we can continue to care for it. With
-        our maintenance plan, You can send us fresh content, images or
-        request layout changes at anytime.
+        {{textData}}
+        <br> <br>
+        {{altText}}
 
-        <br>
-        <br>
-        Let us be part of your team and let us create amazing results for you.
         </p>
 
           <!-- <section>
@@ -43,7 +41,7 @@
 
 <script>
 export default {
-
+    props:{textData:'',altText:''},
 }
 </script>
 
@@ -65,6 +63,7 @@ export default {
     justify-content: center;
     align-items: center;
     margin-top: 80px;
+    font-size: larger;
 }
 
 .footer-content{
@@ -86,7 +85,7 @@ export default {
 }
 
 .footer-content section a{
-    font-size: medium;
+    font-size: large;
     /* color: #5d6a79; */
     display: flex;
     align-items: flex-start;

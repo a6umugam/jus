@@ -29,8 +29,8 @@
       <div class="info-bar">
         <div>
             <section>
-            <p>Website, Software &</p>
-            <p>Mobile App</p>
+            <p> <strong>Website, Software &</strong> </p>
+            <p> <strong>Mobile App</strong> </p>
             </section>
             <p>Building the <strong>Websites</strong>  & <strong>Apps</strong>, You've Always <strong>Dreamed</strong> of. We create <strong>professional, beautiful</strong> and <strong>unique</strong> website designs for small to large businesses</p>
             <!-- <p>We pride ourselves on guiding our clients to success - and creating intelligent solutions that minimize risks and maximize rewards. </p> -->
@@ -126,6 +126,10 @@ export default {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.nav-links a{
+    font-size: x-large;
 }
 
 @media screen and (max-width: 800px){

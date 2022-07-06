@@ -6,17 +6,26 @@
               <!-- <img class="cover-image" src="~/assets/jus-about.jpg" alt="creative"> -->
 
                 <div class="space"></div>
-                <h1>Web design company in Gatineau</h1>
-                <p>We have the resources, vision, and experience to design any
-                    site for any company with integrity and style. Our team of top
-                    web designers and specialists offers effective design
-                    solutions with sites and applications that are attractive and
-                    functional and can meet both your budget and deadline
-                    concerns.</p>
+                <h1><strong>Web design</strong> company in <strong>Gatineau</strong></h1>
+
+                <p>JUS Multi Creation is a trusted full-service web solution company based in
+                    Canada. We provide a range of customized services including website
+                    design, software and application development, animation videos, and
+                    graphic design, we pretty much do it all. Our team of top experts
+                    offers effective design solutions that are attractive and functional and
+                    can meet both your budget and deadline concerns. We are here to
+                    help you take the next step towards your goal. <br><br>
+                    JUS Multi Creation is committed to providing affordable solutions and
+                    focuses its services on community-based organizations and new
+                    entrepreneurs. We find ways to make your goals achievable,
+                    manageable, and impactful. <br><br>
+                    In addition, our service delivery, customer service, and company
+                    policy are focused on creating the best experience for you. Don't be
+                    afraid to reach out, we'll be happy to help in any way we can.</p>
         
                 <div class="space"></div>
 
-              <h1>We care about results as much as you do !!!</h1>
+              <h1>We <strong>care</strong> about <strong>results</strong> as much <strong>as you do</strong> !!!</h1>
 
               <div class="cards-holder">
             <div class="card">
@@ -71,13 +80,13 @@
 
         <div class="space"></div>
         <div class="end-card">
-            <h1>Let's create <br>together!</h1>
+            <h2>Let us be part of your team <br> and let's create together!</h2>
             <button v-on:click="goto('/contact')" >Get Free Quotation Now</button>
         </div>
         </div>
       </div>
         <div class="space"></div>
-      <Footer/>
+      <Footer :textData="'We are here to help you take the next step towards your goal.'"/>
       <!-- <ContactForm v-if="formView" @closeMenu="formView = !formView" /> -->
 
   </div>

@@ -3,18 +3,18 @@
     <form  @submit.prevent="submitForm">
     <label class="contact-email">
       <span>Name</span>
-      <input placeholder="Your name" type="text" v-model="name" name="name">
+      <input  type="text" v-model="name" name="name">
     </label>
     <label class="contact-email">
       <span>Phone</span>
-      <input placeholder="Your Phone/ Mobile Number" type="text" v-model="phone" name="phone">
+      <input  type="text" v-model="phone" name="phone">
     </label>
     <label class="contact-email">
       <span>Email</span>
-      <input placeholder="me@example.com" type="text" v-model="email" name="email">
+      <input  type="text" v-model="email" name="email">
     </label>
     <label class="contact-message">
-      <span>Your Requirement / Query</span>
+      <span>Message</span>
       <textarea name="message" v-model="message"></textarea>
     </label>
     <h3 v-if="errormsg" class="error-message">{{errormsg}}</h3>
@@ -87,7 +87,7 @@ export default {
 .contact-form form{
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     flex-flow: column;
     background-color: #eef6ff;
     border-radius: 12px;
@@ -104,9 +104,21 @@ export default {
     width: 100%;
 }
 
+
+.contact-message span{
+  display: flex;
+  width: 100%;
+}
+
 .contact-email{
     width: 100%;
     margin-bottom: 25px;
+
+}
+
+.contact-email span{
+  display: flex;
+  width: 100%;
 }
 
 .contact-email input{
