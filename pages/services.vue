@@ -59,7 +59,7 @@
 
             <div class="thecard">
                 <div class="thefront">
-                    <img src="~/assets/icons/flash.svg" alt="globe" >
+                    <img src="~/assets/icons/layout.svg" alt="globe" >
                     <h2>Simple Interfaces</h2>
                 </div>
                 <div class="theback">
@@ -94,11 +94,11 @@
 
             <div class="thecard">
                 <div class="thefront">
-                <img src="~/assets/icons/bulb.svg" alt="flash">
+                <img src="~/assets/icons/film.svg" alt="flash">
                 <h2>Video Production</h2>
                 </div>
                 <div class="theback">
-                <p>Video is the best way to get your message across and increase time visitors spend on your website. Learn more about video services.</p>
+                <p>Explain what your business or nonprofit does-promote your product or idea with animated videos.</p>
                 </div>
             </div>
 
@@ -154,7 +154,7 @@
 
             <div class="thecard">
                 <div class="thefront">
-                <img src="~/assets/icons/card.svg" alt="globe" >
+                <img src="~/assets/icons/cart.svg" alt="globe" >
                 <h2>E-commerce</h2>
                 </div>
                 <div class="theback">
@@ -188,7 +188,7 @@
 
             <div class="thecard">
                 <div class="thefront">
-                    <img src="~/assets/icons/layout.svg" alt="globe" >
+                    <img src="~/assets/icons/mobile.svg" alt="globe" >
                     <h2>Mobile / Web Application Development</h2>
                 </div>
                 <div class="theback">

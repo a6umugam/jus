@@ -1,7 +1,7 @@
 <template>
   <div class="hero">
     <div class="hero-container">
-        <h2 style="margin-top:20px">Promote your product or idea with animated videos</h2>
+        <h2 style="font-weight:bold;font-style:italic;margin-top:20px">Promote your product or idea with animated videos</h2>
         <div class="media-box">
             <video class="cover-image" autoplay loop>
                 <source src="~/assets/new_white_wings.webm" type="video/webm">
@@ -54,6 +54,7 @@
             <div class="thefront">
                 <img src="~/assets/icons/people.svg" alt="people">
                 <h2>IT Expertise</h2>
+                <img src="~/assets/icons/rotate.svg" style="width:18px" alt="people">
             </div>
             <div class="theback">
                 <p>We have 30+ trained professionals in different technological areas. Our goal is simple, to provide you with the best experience possible.</p>
@@ -64,6 +65,7 @@
             <div class="thefront">
                 <img src="~/assets/icons/clock.svg" alt="people">
                 <h2>24/7 Support</h2>
+                <img src="~/assets/icons/rotate.svg" style="width:18px" alt="people">
             </div>
             <div class="theback">
                 <p>We provide full-time support for all our valuable clients. If you have any
@@ -75,6 +77,7 @@
             <div class="thefront">
                 <img src="~/assets/icons/card.svg" alt="people">
                 <h2>Affordable Cost</h2>
+                <img src="~/assets/icons/rotate.svg" style="width:18px" alt="people">
             </div>
             <div class="theback">
                 <p>Our services are affordable and budget-friendly. We never overcharge our valuable clients.</p>
@@ -148,7 +151,7 @@
         <!-- <a href="/services" class="o-button">More <img src="~/assets/icons/arrow.svg" alt=">" width="32"></a> -->
 
 
-        <img class="proc-image" src="~/assets/jus_proc.png" alt="process">
+        <img class="proc-image" src="~/assets/jus_proc_new.png" alt="process">
 
         <button v-on:click="goto('/contact')"> Lets Get Started</button>
         <div class="space"></div>

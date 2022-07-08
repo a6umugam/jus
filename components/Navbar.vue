@@ -83,7 +83,7 @@ export default {
 }
 .info-bar p{
     color: #435264;
-    font-size: large;
+    font-size: x-large;
 }
 
 .info-bar h2{

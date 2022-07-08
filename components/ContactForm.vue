@@ -79,19 +79,21 @@ export default {
     top: 0;
     /* position: fixed; */
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     /* background-color: #00000073; */
     padding: 10px;
+    width: 100%;
+
 }
 
 .contact-form form{
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     flex-flow: column;
     background-color: #eef6ff;
     border-radius: 12px;
-    width: 1100px;
+    width: 100%;
     max-width: 600px;
     height: 600px;
     padding: 25px;

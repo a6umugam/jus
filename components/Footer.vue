@@ -10,7 +10,7 @@
               <a><img src="~/assets/icons/email.svg" width="28" alt="people"> info@jusmulticreation.ca</a>
           </section>
 
-        <p>
+        <p class="bottom-text">
         {{textData}}
         <br> <br>
         {{altText}}
@@ -46,6 +46,12 @@ export default {
 </script>
 
 <style>
+.bottom-text{
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: italic;
+}
+
 .rights{
     margin-top: 20px;
     display: flex;

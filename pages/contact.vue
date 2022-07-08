@@ -9,13 +9,14 @@
         <h1 style="color:#2a5487">Get In Touch</h1>
         <h1 > Gatineau Web Solutions<br> <strong>Company</strong></h1>
         <br>
-        <p class="about-container-sub" style="color:#fff;background-color: #2d343b98;padding:5px;border-radius:10px">Do you have a project in mind that you
+        </div>
+
+        <p class="about-container-sub" style="margin-top:20px;font-size:x-large;color:#000;padding:5px">Do you have a project in mind that you
                                       wish to discuss with our expert? Don't
                                       hesitate, we are just a call away! If you
                                       are unable to call us, you can just fill in
                                       the simple form below and we will get
                                       in touch with you as soon as possible.</p>
-        </div>
 
         <div class="space"></div>
 
@@ -31,7 +32,7 @@
             <div class="contact">
                 <img src="~/assets/icons/phone.svg" alt="people">
                 <h2>Need help right now?</h2>
-                <p>Call: +1 (514) 292-3162</p>
+                <h2>Call: +1 (514) 292-3162</h2>
             </div>
             <!-- <div class="contact">
                 <img src="~/assets/icons/email.svg" alt="people">
