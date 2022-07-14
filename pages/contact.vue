@@ -11,12 +11,7 @@
         <br>
         </div>
 
-        <p class="about-container-sub" style="margin-top:20px;font-size:x-large;color:#000;padding:5px">Do you have a project in mind that you
-                                      wish to discuss with our expert? Don't
-                                      hesitate, we are just a call away! If you
-                                      are unable to call us, you can just fill in
-                                      the simple form below and we will get
-                                      in touch with you as soon as possible.</p>
+        <p class="about-container-sub" style="margin-top:20px;font-size:x-large;color:#000;padding:5px">Do you have a project in mind you wish to discuss with our expert? <br> Feel free to reach out to us: <strong>+1 (514) 292-3162</strong> <br><br> If you are unable to call us, you can fill out the form below. <br> We will get in touch with you as soon as possible.</p>
 
         <div class="space"></div>
 

@@ -8,20 +8,28 @@
                 <div class="space"></div>
                 <h1><strong>Web design</strong> company in <strong>Gatineau</strong></h1>
 
-                <p>JUS Multi Creation is a trusted full-service web solution company based in
-                    Canada. We provide a range of customized services including website
-                    design, software and application development, animation videos, and
-                    graphic design, we pretty much do it all. Our team of top experts
-                    offers effective design solutions that are attractive and functional and
-                    can meet both your budget and deadline concerns. We are here to
-                    help you take the next step towards your goal. <br><br>
-                    JUS Multi Creation is committed to providing affordable solutions and
-                    focuses its services on community-based organizations and new
-                    entrepreneurs. We find ways to make your goals achievable,
-                    manageable, and impactful. <br><br>
-                    In addition, our service delivery, customer service, and company
-                    policy are focused on creating the best experience for you. Don't be
-                    afraid to reach out, we'll be happy to help in any way we can.</p>
+                <p style="text-align: start;max-width:900px;font-size: x-large;"><strong>JUS Multi Creation is a trusted full-service web solution company
+                    based in Canada.</strong>
+                    <br><br>
+                    - We provide a range of customized services, including website
+                    design, software and application development, animation
+                    videos, and graphic design, we pretty much do it all.
+                    <br><br>
+                    - Our team of top experts offers effective design solutions that
+                    are attractive, functional and can meet both your budget and
+                    <br><br>
+                    <strong>deadline concerns. We are here to help you take the next step towards your goal !</strong> 
+                    <br><br>
+                    JUS Multi Creation is committed to providing cost-effective solutions
+                    and focuses its services on community-based organizations and
+                    new entrepreneurs. <br>
+                    - We find ways to make your goals attainable, manageable, and
+                    impactful.<br><br>
+                    - Our service delivery, customer service, and company policy
+                    are focused on providing you with the best possible
+                    experience. Feel free to contact us, we will be happy to help in
+                    any way we can.
+                    </p>
         
                 <div class="space"></div>
 
@@ -125,7 +133,6 @@ export default {
 
 .about-container p{
     padding: 10px;
-    text-align: center;
   color: #5d6a79;
   font-size: large;
 }

@@ -2,7 +2,7 @@
   <div>
     <Navbar/>
     <Hero/>
-    <Footer :textData="'Once your website is launched, we can continue to care for it. With our maintenance plan, You can send us fresh content, images or request layout changes at anytime. '"/>
+    <Footer :textData="'Once your website is launched, we can continue to care for it. Our maintenance plan enables you to send us fresh content, and images or request layout changes at any time. '"/>
   </div>
 </template>
 

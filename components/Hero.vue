@@ -27,7 +27,7 @@
             </h2>
 
             <p>
-              We pride ourselves on guiding our clients to success - and creating intelligent solutions that minimize risks and maximize rewards.
+              We pride ourselves in guiding our clients to success - and creating intelligent solutions that minimize risks and maximize rewards.
             </p>
           </div>
     </div>
@@ -44,8 +44,8 @@
             Web Design, Web &amp; App Development, we pretty much do it all.
             <br>
             <br> -->
-            We believe in designing solutions that make you money, but we also want
-            to save you money by getting it done right the 1st time!
+            We believe in developing solutions that earn you money while saving
+            you money. So we get the job done correctly from the get-go.
         </p>
 
         <div class="cards-holder">
@@ -57,7 +57,8 @@
                 <img src="~/assets/icons/rotate.svg" style="width:18px" alt="people">
             </div>
             <div class="theback">
-                <p>We have 30+ trained professionals in different technological areas. Our goal is simple, to provide you with the best experience possible.</p>
+                <p>We have over 30 trained professionals in a range of technology areas. Our
+                    goal is simple, to provide you with the best possible experience.</p>
             </div>
         </div>
 
@@ -68,19 +69,20 @@
                 <img src="~/assets/icons/rotate.svg" style="width:18px" alt="people">
             </div>
             <div class="theback">
-                <p>We provide full-time support for all our valuable clients. If you have any
-                questions or run into a problem, we will reply within 30 minutes.</p>
+                <p>We provide 24/7 support for all our valuable clients. If you
+                    have any questions or run into any issues, we will reply within 30 minutes.</p>
             </div>
         </div>
 
         <div class="thecard">
             <div class="thefront">
                 <img src="~/assets/icons/card.svg" alt="people">
-                <h2>Affordable Cost</h2>
+                <h2>Affordable</h2>
                 <img src="~/assets/icons/rotate.svg" style="width:18px" alt="people">
             </div>
             <div class="theback">
-                <p>Our services are affordable and budget-friendly. We never overcharge our valuable clients.</p>
+                <p>Our services are affordably priced and
+                    budget-friendly. We do not overcharge our valuable clients.</p>
             </div>
         </div>
 
@@ -151,7 +153,7 @@
         <!-- <a href="/services" class="o-button">More <img src="~/assets/icons/arrow.svg" alt=">" width="32"></a> -->
 
 
-        <img class="proc-image" src="~/assets/jus_proc_new.png" alt="process">
+        <img class="proc-image" src="~/assets/jus_proc_new2.png" alt="process">
 
         <button v-on:click="goto('/contact')"> Lets Get Started</button>
         <div class="space"></div>
@@ -178,10 +180,11 @@
         <div class="space"></div> -->
 
     <p class="subtitle">
-        We have the <strong>resources, vision,</strong> and <strong>experience</strong> to design any site for
-        any company with integrity and style. Our team of <strong>top web designers</strong> 
-        offers effective design solutions with sites that are<strong> attractive and
-        functional</strong> and can meet both your <strong>budget and deadline</strong> concerns.
+        We have the <strong>resources, vision,</strong> and <strong>experience</strong> to design any
+        website for any company with integrity and style. Our team of
+        <strong>top web designers</strong> provides effective design solutions with
+        <strong>attractive and functional</strong> features. These will meet, both your
+        <strong>budget and deadline</strong> concerns.
     </p>
 
     </div>

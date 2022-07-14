@@ -38,9 +38,9 @@
                 <h2>Branding and Logo Design</h2>
                 </div>
                 <div class="theback">
-                <p>Committed to delivering 100% unique and innovative designs to our 
-                    clients. Our customized logo will surely help to find you a successful
-                    business identity in the market.</p>
+                <p>We are committed to delivering 100% unique and innovative designs to our
+                    clients. Our customized logo will surely help you find a successful business
+                    identity in the market.</p>
                 </div>
             </div>
 
@@ -63,8 +63,8 @@
                     <h2>Simple Interfaces</h2>
                 </div>
                 <div class="theback">
-                    <p>Our solutions are easy for anyone to use. All you need is the internet,
-                    and you can make changes from anywhere.</p>
+                    <p>Our solutions are simple to apply. All you need is access to the internet,
+                        enabling you to make changes from anywhere.</p>
                 </div>
             </div>
 
@@ -85,8 +85,8 @@
                 <h2>Content Marketing</h2>
                 </div>
                 <div class="theback">
-                <p>We focus on a collaborative approach to content creation and marketing that
-                    respects your subject matter while simultaneously deploying your content to
+                <p>We use a collaborative approach to content creation and marketing. We
+                    respect your ideas while also simultaneously deploying your content to meet
                     the target market.</p>
                 </div>
             </div>
@@ -98,7 +98,7 @@
                 <h2>Video Production</h2>
                 </div>
                 <div class="theback">
-                <p>Explain what your business or nonprofit does-promote your product or idea with animated videos.</p>
+                <p>We display your business or nonprofit organization’s mission, and promote products and ideas with animated videos.</p>
                 </div>
             </div>
 
@@ -158,8 +158,7 @@
                 <h2>E-commerce</h2>
                 </div>
                 <div class="theback">
-                <p>Our solution is designed to make the process of owning and running your
-                    online store as easy as possible.</p>
+                <p>Our solution is designed to ease the process of running and operating your online store.</p>
                 </div>
             </div>
 
@@ -169,7 +168,7 @@
                     <h2>Remote IT Support</h2>
                 </div>
                 <div class="theback">
-                    <p>We subject your company&#39;s IT systems to your needs by providing and
+                    <p>We subject your company's IT systems to your needs by providing and
                         applying the best maintenance solutions. So, you can focus on what you do best.</p>
                 </div>
             </div>
@@ -180,9 +179,9 @@
                 <h2>Software Design and Development</h2>
                 </div>
                 <div class="theback">
-                <p>We help you to get the beautiful, functional piece of software you asked for.
-                    Generate data reports by clicking a button. We integrate the best software to
-                    make it easy for anyone to edit.</p>
+                <p>We can assist you in bringing to reality your ideal software. We integrate the
+                    best software to make it easy for anyone to edit. Generate data reports in just
+                    one simple click</p>
                 </div>
             </div>
 
@@ -192,9 +191,9 @@
                     <h2>Mobile / Web Application Development</h2>
                 </div>
                 <div class="theback">
-                    <p>User-friendly apps on both Android and iOS
-                        We build apps to look perfect across all device types. Dynamic web
-                        applications that are user-friendly.</p>
+                    <p>User-friendly apps on both Android and iOS We build apps to look
+                        perfect across all device types. Dynamic web applications that are
+                        user-friendly.</p>
                 </div>
             </div>
 
