@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="isolation:isolate" viewBox="204 263.5 1376 920.05" width="1376pt" height="920.05pt">
+    <g>
+        <linearGradient id="prefix__a" x1=".174" y1=".856" x2="1.034" y2=".242" gradientTransform="matrix(37 0 0 37 1386 335)" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#00e18b"/>
+            <stop offset="100%" stop-color="#91ff00"/>
+        </linearGradient>
+        <circle vector-effect="non-scaling-stroke" cx="1404.5" cy="353.5" r="18.5" fill="url(#prefix__a)"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-25; 0,0;" dur="4s" repeatCount="indefinite"/>
+    </g>
+
+
+    <g>
+        <linearGradient id="prefix__c" x1=".045" y1="1.215" x2="1.034" y2=".242" gradientTransform="matrix(37 0 0 37 367.239 835)" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#005ae1"/>
+            <stop offset="100%" stop-color="#00f2ff"/>
+        </linearGradient>
+        <circle vector-effect="non-scaling-stroke" cx="385.739" cy="853.5" r="18.5" fill="url(#prefix__c)"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-25; 0,0;" dur="4s" repeatCount="indefinite"/>
+    </g>
+
+    <g>
+        <linearGradient id="prefix__d" x1=".045" y1="1.215" x2="1.034" y2=".242" gradientTransform="matrix(37 0 0 37 1113 1146.55)" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#005ae1"/>
+            <stop offset="100%" stop-color="#00f2ff"/>
+        </linearGradient>
+        <circle vector-effect="non-scaling-stroke" cx="1131.5" cy="1165.05" r="18.5" fill="url(#prefix__d)"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-20; 0,0;" dur="5s" repeatCount="indefinite"/>
+    </g>
+
+    <g>
+        <linearGradient id="prefix__e" x1=".045" y1="1.215" x2="1.613" y2="-.265" gradientTransform="matrix(37 0 0 37 1543 872)" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#f80"/>
+            <stop offset="100%" stop-color="#ff0800"/>
+        </linearGradient>
+        <circle vector-effect="non-scaling-stroke" cx="1561.5" cy="890.5" r="18.5" fill="url(#prefix__e)"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-25; 0,0;" dur="3s" repeatCount="indefinite"/>
+    </g>
+
+</svg>

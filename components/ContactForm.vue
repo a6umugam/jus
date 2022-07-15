@@ -83,6 +83,7 @@ export default {
     /* background-color: #00000073; */
     padding: 10px;
     width: 100%;
+    margin-top: 20px;
 
 }
 
@@ -91,6 +92,8 @@ export default {
     justify-content: flex-start;
     /* align-items: flex-start; */
     flex-flow: column;
+    background-image: linear-gradient( 112deg, #FFDEE9 0%, #B5FFFC 100%);
+
     background-color: #eef6ff;
     border-radius: 12px;
     width: 100%;

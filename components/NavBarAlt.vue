@@ -1,14 +1,15 @@
 <template>
-  <div class="navbar">
+  <div class="navbar-alt">
 
-        <div class="info-bar">
+        <div class="info-bar-alt" v-bind:class="{ incpadding: stickIt }">
         <div>
-            <p>Call Us : 514.292.3162</p>
-            <p>Email : info@jusmulticreation.ca</p>
+            <p><img src="~/assets/icons/phone.svg" width="28" alt="people"> +1 (514) 292-3162</p>
+            <p><img src="~/assets/icons/email.svg" width="28" alt="people"> info@jusmulticreation.ca</p>
         </div>
       </div>
 
-      <div class="navbar-content">
+      <div class="transbg backdrop-blur small-nav" v-bind:class="{ sticky: stickIt }">
+        <div class="navbar-content-alt">
           <img src="~/assets/jus_green.svg" alt="logo" width=350 heigh v-on:click="goto('/')" class="logo">
           <div class="nav-links">
               <a href="/services">What we Offer</a>
@@ -20,6 +21,7 @@
               <button v-on:click="goto('/contact')" >Free Quote</button>
           </div>
       </div>
+      </div>
 
       <div class="mobile-bar">
         <a href="/services">Services</a>
@@ -27,19 +29,15 @@
         <a href="/about">About</a>
       </div>
 
-      <div class="info-bar">
+      <!-- <div class="info-bar-alt">
         <div>
             <section>
             <p> <strong>Website, Software &</strong> </p>
             <p> <strong>Mobile App</strong> </p>
             </section>
             <p>Building the <strong>Websites</strong>  & <strong>Apps</strong>, You've Always <strong>Dreamed</strong> of. We create <strong>professional, beautiful</strong> and <strong>unique</strong> website designs for small to large businesses</p>
-            <!-- <p>We pride ourselves on guiding our clients to success - and creating intelligent solutions that minimize risks and maximize rewards. </p> -->
-            <!-- <a href="#">Work with us</a>
-            <a href="#">Web Design</a>
-            <a href="#">Mobile App Development</a> -->
         </div>
-      </div>
+      </div> -->
 
     <ContactForm v-if="formView" @closeMenu="formView = !formView" />
 
@@ -50,45 +48,71 @@
 export default {
     data() {
     return {
-        formView:false
+        formView:false,
+        scrollVal: 0,
+        stickIt:false
     };
+  },
+
+  beforeMount() {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll)
   },
 
     methods:{
         goto(path){
             this.$router.push(path)
-        }
+        },
+        handleScroll() {
+            // console.log(window.scrollY)
+            this.scrollVal = window.scrollY
+            var scrolled = window.scrollY
+            if(scrolled >= 50){
+                this.stickIt = true
+            }else{
+                this.stickIt = false
+            }
+        },
     },
 }
 </script>
 
 <style>
-.info-bar{
-    background-color: #48ff87;
+.info-bar-alt{
+    /* background-color: #48ff87; */
+    background: rgb(0,239,255);
+    background: linear-gradient(90deg, rgba(0,239,255,1) 0%, rgba(72,255,128,1) 100%);
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
     padding: 5px;
     display: flex;
-    /* height: 50px; */
 }
 
-.info-bar section{
+.info-bar-alt section{
     width: 400px;
 }
-.info-bar div{
+.info-bar-alt div{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     max-width: 1100px;
 }
-.info-bar p{
+.info-bar-alt p{
     color: #435264;
-    font-size: x-large;
+    font-size: large;
+    display: flex;
+    align-items: center;
 }
 
-.info-bar h2{
+.info-bar-alt p img{
+    margin-right: 10px;
+}
+
+.info-bar-alt h2{
     color: #181818;
 }
 
@@ -104,7 +128,7 @@ export default {
 .logo{
     cursor: pointer;
 }
-.navbar{
+.navbar-alt{
     display: flex;
     flex-flow: column;
     width: 100%;
@@ -112,18 +136,50 @@ export default {
     align-items: center;
     /* height: 100px; */
     background-color: white;
+    transition: 0.4s;
+}
+
+.transbg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 99;
+    border-bottom: #bcc8d6 0.5px solid;
+}
+
+.backdrop-blur {
+  background-color: rgba(255, 255, 255, .9);
+}
+
+/* if backdrop support: very transparent and blurred */
+@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  .backdrop-blur {
+    background-color: rgba(255, 255, 255, .5);
+    -webkit-backdrop-filter: blur(2em);
+    backdrop-filter: blur(2em);
+  }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+height: 90px;
 
 }
 
-.navbar-content{
+.incpadding{
+    margin-bottom: 150px;
+}
+
+.navbar-content-alt{
     padding: 10px;
     display: flex;
     width: 100vw;
     max-width: 1100px;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
-    top: 0;
 }
 
 
@@ -148,7 +204,7 @@ export default {
         margin-bottom: 20px;
     }
 
-    .info-bar{
+    .info-bar-alt{
         display: none;
     }
 }

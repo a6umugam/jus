@@ -1,7 +1,9 @@
 <template>
   <div class="hero">
-    <div class="hero-container">
-        <h2 style="font-weight:bold;font-style:italic;margin-top:20px">Promote your product or idea with animated videos</h2>
+    <div class="hero-container-alt">
+        <ScrollText :textData="'Hwllow'"/>
+
+        <!-- <h2 style="font-weight:bold;font-style:italic;margin-top:20px">Promote your product or idea with animated videos</h2> -->
         <div class="media-box">
             <video class="cover-image" autoplay loop muted>
                 <source src="~/assets/new_white_wings.webm" type="video/webm">
@@ -9,6 +11,8 @@
             </video> 
             <!-- <Slogan/> -->
         </div>
+
+
 
         <!-- <img class="cover-image" src="~/assets/jus-banner.jpg" alt="banner"> -->
 
@@ -20,89 +24,74 @@
             Full-service <strong>Web</strong> solutions to help your business<strong> grow!</strong>
         </h1>
 
-    <div class="info-bar smooth-border">
-          <div>
-            <h2>
-              Website, Software & Mobile App
-            </h2>
+        <img style="z-index:-2" src="~/assets/platforms.svg" alt="platforms">
 
-            <p>
-              We pride ourselves in guiding our clients to success - and creating intelligent solutions that minimize risks and maximize rewards.
+
+
+            <div class="info-bar gradient-text">
+            <div>
+                <h2>
+                Website, Software & Mobile App
+                </h2>
+
+                <p>
+                We pride ourselves in guiding our clients to success - and creating intelligent solutions that minimize risks and maximize rewards.
+                </p>
+            </div>
+            </div>
+
+
+        <div class="mid-card gradi">
+
+            <p class="subtitle">
+                We believe in developing solutions that earn you money while saving
+                you money. So we get the job done correctly from the get-go.
             </p>
-          </div>
-    </div>
 
-        <p class="subtitle">
-            <!-- We are a forward thinking Gatineau web design company that produces
-            beautiful optimized websites tailored to our clients individual business.
-            Whether your need is a new website or a redevelopment, web updates or
-            social media development and integration, we have the expertise and
-            experience to get the job done right, quickly, and at a price you can afford.
-            <br>
-            <br>
-            Our track record in providing superior products includes Logos, Branding,
-            Web Design, Web &amp; App Development, we pretty much do it all.
-            <br>
-            <br> -->
-            We believe in developing solutions that earn you money while saving
-            you money. So we get the job done correctly from the get-go.
-        </p>
+            <div class="cards-holder">
 
-        <div class="cards-holder">
-
-        <div class="thecard">
-            <div class="thefront">
-                <img src="~/assets/icons/people.svg" alt="people">
-                <h2>IT Expertise</h2>
-                <img src="~/assets/icons/rotate.svg" style="width:18px" alt="people">
-            </div>
-            <div class="theback">
-                <p>We have over 30 trained professionals in a range of technology areas. Our
-                    goal is simple, to provide you with the best possible experience.</p>
-            </div>
-        </div>
-
-        <div class="thecard">
-            <div class="thefront">
-                <img src="~/assets/icons/clock.svg" alt="people">
-                <h2>24/7 Support</h2>
-                <img src="~/assets/icons/rotate.svg" style="width:18px" alt="people">
-            </div>
-            <div class="theback">
-                <p>We provide 24/7 support for all our valuable clients. If you
-                    have any questions or run into any issues, we will reply within 30 minutes.</p>
-            </div>
-        </div>
-
-        <div class="thecard">
-            <div class="thefront">
-                <img src="~/assets/icons/card.svg" alt="people">
-                <h2>Affordable</h2>
-                <img src="~/assets/icons/rotate.svg" style="width:18px" alt="people">
-            </div>
-            <div class="theback">
-                <p>Our services are affordably priced and
-                    budget-friendly. We do not overcharge our valuable clients.</p>
-            </div>
-        </div>
-
-            <!-- <div class="card">
-                <img src="~/assets/icons/people.svg" alt="people">
-                <h2>IT Expertise</h2>
-                <p>We have 20+ expert in our house. we will able to provide you 360° sservice as per your requirements</p>
+            <div class="thecard">
+                <div class="thefront">
+                    <img src="~/assets/icons/people.svg" alt="people">
+                    <h2>IT Expertise</h2>
+                    <section class="bottom-place">
+                        <img src="~/assets/icons/rotate.svg" style="width:22px" alt="people">
+                    </section>
+                </div>
+                <div class="theback">
+                    <p>We have over 30 trained professionals in a range of technology areas. Our
+                        goal is simple, to provide you with the best possible experience.</p>
+                </div>
             </div>
 
-            <div class="card">
-                <img src="~/assets/icons/clock.svg" alt="flash">
-                <h2>24/7 IT Support</h2>
-                <p>We provide 24/7 support for our valuable clients. We will reply to all queries within 30 minutes.</p>
+            <div class="thecard">
+                <div class="thefront">
+                    <img src="~/assets/icons/clock.svg" alt="people">
+                    <h2>24/7 Support</h2>
+                    <section class="bottom-place">
+                        <img src="~/assets/icons/rotate.svg" style="width:22px" alt="people">
+                    </section>
+                </div>
+                <div class="theback">
+                    <p>We provide 24/7 support for all our valuable clients. If you
+                        have any questions or run into any issues, we will reply within 30 minutes.</p>
+                </div>
             </div>
 
-            <div class="card">
-                <img src="~/assets/icons/card.svg" alt="globe" >
-                <h2>Affordable Cost</h2>
-                <p>Our all service is affordable and budget friendly. We never overcharge our valuable clients. Any query just send a message.</p>
-            </div> -->
+            <div class="thecard">
+                <div class="thefront">
+                    <img src="~/assets/icons/card.svg" alt="people">
+                    <h2>Affordable</h2>
+                    <section class="bottom-place">
+                        <img src="~/assets/icons/rotate.svg" style="width:22px" alt="people">
+                    </section>
+                </div>
+                <div class="theback">
+                    <p>Our services are affordably priced and
+                        budget-friendly. We do not overcharge our valuable clients.</p>
+                </div>
+            </div>
+            </div>
         </div>
 
         <!-- <div class="space"></div> -->
@@ -152,7 +141,6 @@
         
         <!-- <a href="/services" class="o-button">More <img src="~/assets/icons/arrow.svg" alt=">" width="32"></a> -->
 
-
         <img class="proc-image" src="~/assets/jus_proc_new2.png" alt="process">
 
         <button v-on:click="goto('/contact')"> Lets Get Started</button>
@@ -179,13 +167,15 @@
         </div>
         <div class="space"></div> -->
 
-    <p class="subtitle">
+    <div class="mid-card grey" style="z-index:-2">
+        <p class="subtitle">
         We have the <strong>resources, vision,</strong> and <strong>experience</strong> to design any
         website for any company with integrity and style. Our team of
         <strong>top web designers</strong> provides effective design solutions with
         <strong>attractive and functional</strong> features. These will meet, both your
         <strong>budget and deadline</strong> concerns.
     </p>
+    </div>
 
     </div>
   </div>
@@ -203,9 +193,37 @@ methods:{
 </script>
 
 <style>
+
+.mid-card{
+    padding: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+    /* z-index: -2; */
+}
+
+.gradi{
+    background-image: linear-gradient( 112deg, #FFDEE9 0%, #B5FFFC 100%);
+
+}
+
+.grey{
+    background-image: url("~assets/new_bg.svg");
+    background-size: cover;
+    background-position: bottom;
+    background-color: #f9f9f9;
+}
+
 .text-slogan{
     color: #181818;
     margin-bottom: 50px;
+    max-width: 1100px;
+  background-image: url("~assets/new_bg.svg");
+  background-size: cover;
+
 }
 
 .text-slogan strong{
@@ -225,6 +243,7 @@ methods:{
     align-content: center;
     /* flex-flow: column; */
     margin-bottom: 50px;
+    background-color: white;
 }
 
 .o-button{
@@ -271,15 +290,26 @@ methods:{
     align-items: center;
     width: 100%;
 }
-.hero-container{
+.hero-container-alt{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 1100px;
+    /* max-width: 1100px; */
     flex-flow: column;
     text-align: center;
+    background-image: url("~assets/bubbles.svg");
+
 }
+
+
+.gradient-anim{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+
 
 
 @media screen and (max-width: 800px){
