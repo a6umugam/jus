@@ -10,12 +10,22 @@
               <a><img src="~/assets/icons/email.svg" width="28" alt="people"> info@jusmulticreation.ca</a>
           </section>
 
-        <p class="bottom-text">
+        <!-- <p class="bottom-text">
+            
         {{textData}}
         <br> <br>
         {{altText}}
 
-        </p>
+        </p> -->
+
+  <div class="blockquote">
+    <p>
+      {{textData}}
+        <br> <br>
+        {{altText}}
+     </p>
+    <!-- <h4>&mdash;Steven Pressfield</h4> -->
+  </div>
 
           <!-- <section>
               <h2>Services</h2>
@@ -46,6 +56,69 @@ export default {
 </script>
 
 <style>
+
+/* Quote */
+/* center the blockquote in the page */
+
+/* Blockquote main style */
+.blockquote {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #00ff40;
+    padding: 30px 0;
+    width: 100%;
+    /* max-width: 500px; */
+    z-index: 1;
+    margin: 80px auto;
+    align-self: center;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+
+/* Blockquote header */
+.blockquote p {
+    position: relative;
+    color: #000000;
+    font-size: large;
+    /* font-style: italic; */
+    font-weight: 800;
+    line-height: 1;
+    margin: 0;
+}
+
+/* Blockquote right double quotes */
+.blockquote:after {
+    position: absolute;
+    content: "”";
+    color: #5a5a5a;
+    font-size: 10rem;
+    line-height: 0;
+    bottom: -43px;
+    right: 30px;
+}
+
+/* increase header size after 600px */
+@media all and (min-width: 600px) {
+    .blockquote p {
+        font-size: 20px;
+   }
+
+}
+
+/* Blockquote subheader */
+/* .blockquote h4 {
+    position: relative;
+    color: #292a2b;
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    padding-top: 20px;
+    z-index: 1;
+} */
+/* Quote X */
+
 .bottom-text{
     font-size: x-large;
     font-weight: bolder;

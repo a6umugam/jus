@@ -3,8 +3,8 @@
 
         <div class="info-bar-alt" v-bind:class="{ incpadding: stickIt }">
         <div>
-            <p><img src="~/assets/icons/phone.svg" width="28" alt="people"> +1 (514) 292-3162</p>
-            <p><img src="~/assets/icons/email.svg" width="28" alt="people"> info@jusmulticreation.ca</p>
+            <p><img src="~/assets/icons/phone.svg" width="28" alt="people"> <strong>+1 (514) 292-3162</strong> </p>
+            <p><img src="~/assets/icons/email.svg" width="28" alt="people"> <strong>info@jusmulticreation.ca</strong> </p>
         </div>
       </div>
 
@@ -192,6 +192,7 @@ height: 90px;
 
 .nav-links a{
     font-size: x-large;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 800px){

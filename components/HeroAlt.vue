@@ -28,15 +28,15 @@
 
 
 
-            <div class="info-bar gradient-text">
+            <div class="text-place gradient-text">
             <div>
-                <h2>
+                <h1>
                 Website, Software & Mobile App
-                </h2>
+                </h1>
 
-                <p>
+                <h2>
                 We pride ourselves in guiding our clients to success - and creating intelligent solutions that minimize risks and maximize rewards.
-                </p>
+                </h2>
             </div>
             </div>
 
@@ -50,7 +50,11 @@
 
             <div class="cards-holder">
 
-            <div class="thecard">
+                <Card :red="true" :iconData="'people'" :titleData="'IT Expertise'" :textData="'We have over 30 trained professionals in a range of technology areas. Our goal is simple, to provide you with the best possible experience.'"/>
+                <Card :purple="true" :iconData="'clock'" :titleData="'24/7 Support'" :textData="'We provide 24/7 support for all our valuable clients. If you have any questions or run into any issues, we will reply within 30 minutes.'"/>
+                <Card :green="true" :iconData="'card'" :titleData="'Affordable'" :textData="'Our services are affordably priced and budget-friendly. We do not overcharge our valuable clients.'"/>
+
+            <!-- <div class="thecard">
                 <div class="thefront">
                     <img src="~/assets/icons/people.svg" alt="people">
                     <h2>IT Expertise</h2>
@@ -62,9 +66,9 @@
                     <p>We have over 30 trained professionals in a range of technology areas. Our
                         goal is simple, to provide you with the best possible experience.</p>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="thecard">
+            <!-- <div class="thecard">
                 <div class="thefront">
                     <img src="~/assets/icons/clock.svg" alt="people">
                     <h2>24/7 Support</h2>
@@ -90,7 +94,7 @@
                     <p>Our services are affordably priced and
                         budget-friendly. We do not overcharge our valuable clients.</p>
                 </div>
-            </div>
+            </div> -->
             </div>
         </div>
 
@@ -193,7 +197,9 @@ methods:{
 </script>
 
 <style>
-
+.text-place{
+    max-width: 900px;
+}
 .mid-card{
     padding: 20px;
     margin-top: 40px;
