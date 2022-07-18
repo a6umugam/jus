@@ -171,8 +171,10 @@
         </div>
         <div class="space"></div> -->
 
-    <div class="mid-card grey" style="z-index:-2">
-        <p class="subtitle">
+    
+    <div class="mid-card grey">
+        <img src="~/assets/corner_design.svg" alt="corner">
+        <p class="subtitle"  style="color: white;">
         We have the <strong>resources, vision,</strong> and <strong>experience</strong> to design any
         website for any company with integrity and style. Our team of
         <strong>top web designers</strong> provides effective design solutions with
@@ -197,6 +199,7 @@ methods:{
 </script>
 
 <style>
+
 .text-place{
     max-width: 900px;
 }
@@ -207,8 +210,14 @@ methods:{
     justify-content: center;
     align-items: center;
     flex-flow: column;
-    width: 100%;
+    width: 90%;
     /* z-index: -2; */
+    border-radius: 12px;
+}
+
+.mid-card img{
+    position: absolute;
+    width: 92%;
 }
 
 .gradi{
@@ -217,10 +226,10 @@ methods:{
 }
 
 .grey{
-    background-image: url("~assets/new_bg.svg");
+    /* background-image: url("~assets/new_bg.svg"); */
     background-size: cover;
     background-position: bottom;
-    background-color: #f9f9f9;
+    background-color: #202020;
 }
 
 .text-slogan{

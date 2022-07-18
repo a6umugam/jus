@@ -3,11 +3,11 @@
       <div class="footer-content">
           <section style="margin-right:110px">
               <!-- <a><strong>Office Location</strong></a> -->
-              <a><img src="~/assets/icons/map.svg" width="28" alt="people"> Gatineau QC, <br> Canada</a>
+              <a><img src="~/assets/icons/map_color.svg" width="28" alt="people"> Gatineau QC, <br> Canada</a>
               <a style="padding:5px"></a>
-              <a><img src="~/assets/icons/phone.svg" width="28" alt="people"> +1 (514) 292-3162</a>
+              <a><img src="~/assets/icons/phone_color.svg" width="28" alt="people"> +1 (514) 292-3162</a>
               <a style="padding:5px"></a>
-              <a><img src="~/assets/icons/email.svg" width="28" alt="people"> info@jusmulticreation.ca</a>
+              <a><img src="~/assets/icons/email_color.svg" width="28" alt="people"> info@jusmulticreation.ca</a>
           </section>
 
         <!-- <p class="bottom-text">
@@ -20,7 +20,7 @@
 
   <div class="blockquote">
     <p>
-      {{textData}}
+      "{{textData}}"
         <br> <br>
         {{altText}}
      </p>
@@ -81,8 +81,8 @@ export default {
     position: relative;
     color: #000000;
     font-size: large;
-    /* font-style: italic; */
-    font-weight: 800;
+    font-style: italic;
+    /* font-weight: 800; */
     line-height: 1;
     margin: 0;
 }
@@ -92,9 +92,9 @@ export default {
     position: absolute;
     content: "”";
     color: #5a5a5a;
-    font-size: 10rem;
+    font-size: 5rem;
     line-height: 0;
-    bottom: -43px;
+    bottom: -18px;
     right: 30px;
 }
 
