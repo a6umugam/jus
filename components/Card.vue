@@ -72,10 +72,13 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px black solid;
+    border: 5px #ffffff solid;
     width: 70px;
     height: 70px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+    /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(62,133,238,1) 1.1%, rgba(227,137,240,1) 43.7%, rgba(243,193,124,1) 89.7% ); */
+    background-image: linear-gradient( 103.3deg,  rgba(252,225,208,1) 30%, rgba(255,173,214,1) 55.7%, rgba(162,186,245,1) 81.8% );
+    /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% ); */
     border-radius: 100rem;
     position: fixed;
     transform: translate(-20px,-20px);

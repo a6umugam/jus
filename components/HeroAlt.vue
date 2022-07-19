@@ -40,6 +40,22 @@
             </div>
             </div>
 
+            <img style="width:50%;z-index:-2" src="~/assets/plus_line.svg" alt="plus">
+
+            <div class="animation-promo">
+
+            <section>
+                <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_x5jglqn9.json"  background="transparent"  speed="1"  class="lottie-anim"  loop autoplay></lottie-player>
+            </section>                
+
+            <section class="text-place gradient-text">
+                <p>
+                Promote your product or idea with animated videos
+                </p>
+            </section>
+
+            </div>
+            
 
         <div class="mid-card gradi">
 
@@ -199,6 +215,29 @@ methods:{
 </script>
 
 <style>
+
+.animation-promo{
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    border: #eeeeee solid 1px;
+    border-radius: 12px;
+}
+
+.animation-promo section{
+    display: flex;
+    align-items: center;
+}
+
+.animation-promo section p{
+    font-size: xx-large;
+}
+
+.lottie-anim{
+    height: 400px;
+    width: 400px;
+}
+
 
 .text-place{
     max-width: 900px;

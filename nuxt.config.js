@@ -14,7 +14,11 @@ export default {
         hid:'tawk.to',
         src: 'https://embed.tawk.to/628906ddb0d10b6f3e735e6c/1g3jk5kgn',
         defer:true
-      }
+      },
+      { 
+        hid:'lottie',
+        src: 'https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js',
+        defer:true}
     ]
   },
 
