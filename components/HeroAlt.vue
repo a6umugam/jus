@@ -16,8 +16,8 @@
             <div class="animation-promo" style="justify-content:center;padding:20px">
             
             <section class="text-place gradient-text">
-                <p>
-                Promote your product or idea with animated videos
+                <p style="font-style:italic">
+                Promote your product or idea with animated videos!
                 </p>
             </section>
 
@@ -73,7 +73,7 @@
 
         <div class="mid-card gradi">
 
-            <p class="subtitle">
+            <p class="subtitle" style="text-align: start;max-width: 100%;">
                 We believe in developing solutions that earn you money while saving
                 you money. So we get the job done correctly from the get-go.
             </p>
@@ -175,9 +175,9 @@
         
         <!-- <a href="/services" class="o-button">More <img src="~/assets/icons/arrow.svg" alt=">" width="32"></a> -->
 
-        <img class="proc-image" src="~/assets/jus_proc_new2.png" alt="process">
+        <img class="proc-image" src="~/assets/jus_proc.svg" alt="process">
 
-        <button v-on:click="goto('/contact')"> Lets Get Started</button>
+        <button v-on:click="goto('/contact')" style="font-size: x-large;"> Lets Get Started</button>
         <div class="space"></div>
         
         <!-- <h1>Our Latest Project</h1> -->
@@ -205,10 +205,10 @@
     <div class="mid-card grey">
         <img src="~/assets/corner_design.svg" alt="corner">
         <p class="subtitle"  style="color: white;">
-        We have the <strong>resources, vision,</strong> and <strong>experience</strong> to design any
-        website for any company with integrity and style. Our team of
-        <strong>top web designers</strong> provides effective design solutions with
-        <strong>attractive and functional</strong> features. These will meet, both your
+        We have the <strong>resources, vision,</strong> and <strong>experience</strong> to design any <br>
+        website for any company with integrity and style. Our team of<br>
+        <strong>top web designers</strong> provides effective design solutions with<br>
+        <strong>attractive and functional</strong> features. These will meet, both your<br>
         <strong>budget and deadline</strong> concerns.
     </p>
     </div>
