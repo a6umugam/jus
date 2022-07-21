@@ -1,7 +1,7 @@
 <template>
-  <div class="kard-container">
-    <div class="kard-bg"  v-bind:class="{ redgr: red, greengr:green, purplegr:purple }">
-        <div class="kard">
+  <div class="kard-container" v-bind:class="{longc: long}">
+    <div class="kard-bg"  v-bind:class="{ redgr: red, greengr:green, purplegr:purple, longr: long }">
+        <div class="kard" v-bind:class="{longr: long}">
             <div class="kard-icon">
                 <img :src="getUrl(iconData)" alt="people">
             </div>
@@ -17,7 +17,7 @@
 
 <script>
 export default {
-    props:{titleData:'',textData:'',iconData:'',red:false,green:false,purple:false},
+    props:{titleData:'',textData:'',iconData:'',red:false,green:false,purple:false,long:false},
     methods:{
         getUrl (img)  {
             return require(`~/assets/icons/${img}.svg`);
@@ -27,6 +27,8 @@ export default {
 </script>
 
 <style>
+
+
 
 .purplegr{
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(171,102,255,1) 0%, rgba(116,182,247,1) 90% );
@@ -104,5 +106,14 @@ export default {
     font-size: 35px;
     font-weight: bolder;
     margin-bottom: 10px;
+    text-align: start;
+}
+
+.longr{
+    height: 400px;
+}
+
+.longc{
+    height: 500px;
 }
 </style>

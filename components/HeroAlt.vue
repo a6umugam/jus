@@ -13,6 +13,20 @@
         </div>
 
 
+            <div class="animation-promo" style="justify-content:center;padding:20px">
+            
+            <section class="text-place gradient-text">
+                <p>
+                Promote your product or idea with animated videos
+                </p>
+            </section>
+
+            </div>
+
+        <img style="transform: scaleY(-1);width:20%;z-index:-2" src="~/assets/plus_line.svg" alt="plus">
+
+
+
 
         <!-- <img class="cover-image" src="~/assets/jus-banner.jpg" alt="banner"> -->
 
@@ -27,34 +41,34 @@
         <img style="z-index:-2" src="~/assets/platforms.svg" alt="platforms">
 
 
+        <img style="width:20%;z-index:-2" src="~/assets/plus_line.svg" alt="plus">
 
-            <div class="text-place gradient-text">
+
+            <div class="text-place">
             <div>
-                <h1>
-                Website, Software & Mobile App
-                </h1>
-
-                <h2>
-                We pride ourselves in guiding our clients to success - and creating intelligent solutions that minimize risks and maximize rewards.
-                </h2>
-            </div>
-            </div>
-
-            <img style="width:50%;z-index:-2" src="~/assets/plus_line.svg" alt="plus">
-
-            <div class="animation-promo">
+                <div class="animation-promo">
 
             <section>
                 <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_x5jglqn9.json"  background="transparent"  speed="1"  class="lottie-anim"  loop autoplay></lottie-player>
             </section>                
 
             <section class="text-place gradient-text">
-                <p>
-                Promote your product or idea with animated videos
-                </p>
+                <h1>
+                Website, Software & Mobile App
+                </h1>
             </section>
 
             </div>
+            
+                
+
+                <h2 class="gradient-text" style="margin-top:20px">
+                We pride ourselves in guiding our clients to success - and creating intelligent solutions that minimize risks and maximize rewards.
+                </h2>
+            </div>
+            </div>
+
+            
             
 
         <div class="mid-card gradi">
@@ -231,6 +245,7 @@ methods:{
 
 .animation-promo section p{
     font-size: xx-large;
+    font-weight: bolder;
 }
 
 .lottie-anim{

@@ -1,21 +1,19 @@
 <template>
   <div>
-      <NavBarAlt/>
+      <Navbar/>
       <div class="container">
           
         <div class="about-container">
 
-        <h1 class="gradient-text" style="color:#2a5487;font-weight:1200">Get In Touch</h1>
+        <div class="image-bg">
+        <h1 style="color:#2a5487">Get In Touch</h1>
         <h1 > Gatineau Web Solutions<br> <strong>Company</strong></h1>
-        <!-- <div class="image-bg">
         <br>
-        </div> -->
-
-        <img class="cover-image" src="~/assets/gatineau.jpg" alt="">
+        </div>
 
         <p class="about-container-sub" style="margin-top:20px;font-size:x-large;color:#000;padding:5px">Do you have a project in mind you wish to discuss with our expert? <br> Feel free to reach out to us: <strong>+1 (514) 292-3162</strong> <br><br> If you are unable to call us, you can fill out the form below. <br> We will get in touch with you as soon as possible.</p>
 
-        <!-- <div class="space"></div> -->
+        <div class="space"></div>
 
     <ContactForm />
 
@@ -26,11 +24,11 @@
                 <h2>Location</h2>
                 <p>207 Blank Street, Sample 407 Ottawa, ON K2P 2N2, Canada</p>
             </div> -->
-            <!-- <div class="contact">
+            <div class="contact">
                 <img src="~/assets/icons/phone.svg" alt="people">
                 <h2>Need help right now?</h2>
                 <h2>Call: +1 (514) 292-3162</h2>
-            </div> -->
+            </div>
             <!-- <div class="contact">
                 <img src="~/assets/icons/email.svg" alt="people">
                 <h2>Email</h2>
@@ -57,7 +55,7 @@
 </template>
 
 <script>
-import NavBarAlt from "~/components/NavBarAlt.vue";
+import Navbar from "~/components/Navbar.vue";
 import Footer from "~/components/Footer.vue";
 export default {
   data(){
@@ -65,7 +63,7 @@ export default {
       footerText: "Need to build an online tool or platform that doesn't exist yet? We can help."
     }
   },
-    components: { NavBarAlt, Footer }
+    components: { Navbar, Footer }
 }
 </script>
 

@@ -1,14 +1,18 @@
 <template>
   <div>
-      <Navbar/>
+      <NavBarAlt/>
       <div class="container">
           <div class="about-container">
               <!-- <img class="cover-image" src="~/assets/jus-about.jpg" alt="creative"> -->
 
-                <div class="space"></div>
-                <h1><strong>Web design</strong> company in <strong>Gatineau</strong></h1>
+                <!-- <div class="space"></div> -->
+                <h1 style="margin:20px"><strong>Web design</strong> company in <strong>Gatineau</strong></h1>
 
-                <p style="text-align: start;max-width:900px;font-size: x-large;"><strong>JUS Multi Creation is a trusted full-service web solution company
+        <img style="width:50%;z-index:-2" src="~/assets/plus_line.svg" alt="plus">
+
+
+                <div class="line-box">
+                    <p style="text-align: start;font-size: x-large;"><strong>JUS Multi Creation is a trusted full-service web solution company
                     based in Canada.</strong>
                     <br><br>
                     - We provide a range of customized services, including website
@@ -22,7 +26,7 @@
                     <br><br>
                     JUS Multi Creation is committed to providing cost-effective solutions
                     and focuses its services on community-based organizations and
-                    new entrepreneurs. <br>
+                    new entrepreneurs. <br><br>
                     - We find ways to make your goals attainable, manageable, and
                     impactful.<br><br>
                     - Our service delivery, customer service, and company policy
@@ -30,10 +34,14 @@
                     experience. Feel free to contact us, we will be happy to help in
                     any way we can.
                     </p>
+                </div>
+        <img style="transform: scaleY(-1);width:40%;z-index:-2" src="~/assets/plus_line.svg" alt="plus">
+
         
-                <div class="space"></div>
 
               <h1>We <strong>care</strong> about <strong>results</strong> as much <strong>as you do</strong> !!!</h1>
+
+        <img style="width:40%;z-index:-2" src="~/assets/plus_line.svg" alt="plus">
 
               <div class="cards-holder">
             <div class="card">
@@ -121,6 +129,8 @@ export default {
 </script>
 
 <style>
+
+
 .about-container{
     display: flex;
     width: 100%;
@@ -133,7 +143,7 @@ export default {
 
 .about-container p{
     padding: 10px;
-  color: #5d6a79;
+  color: #292929;
   font-size: large;
 }
 </style>
