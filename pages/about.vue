@@ -8,7 +8,7 @@
                 <!-- <div class="space"></div> -->
                 <h1 style="margin:20px"><strong>Web design</strong> company in <strong>Gatineau</strong></h1>
 
-        <img style="width:50%;z-index:-2" src="~/assets/plus_line.svg" alt="plus">
+        <!-- <img style="width:50%;z-index:-2" src="~/assets/plus_line.svg" alt="plus"> -->
 
 
                 <div class="line-box">
@@ -20,13 +20,11 @@
                     videos, and graphic design, we pretty much do it all.
                     <br><br>
                     - Our team of top experts offers effective design solutions that
-                    are attractive, functional and can meet both your budget and
+                    are attractive, functional and can meet both your budget and deadline concerns. We are here to help you take the next step towards your goal !
                     <br><br>
-                    <strong>deadline concerns. We are here to help you take the next step towards your goal !</strong> 
-                    <br><br>
-                    JUS Multi Creation is committed to providing cost-effective solutions
+                    <strong>JUS Multi Creation is committed to providing cost-effective solutions
                     and focuses its services on community-based organizations and
-                    new entrepreneurs. <br><br>
+                    new entrepreneurs.</strong><br><br>
                     - We find ways to make your goals attainable, manageable, and
                     impactful.<br><br>
                     - Our service delivery, customer service, and company policy

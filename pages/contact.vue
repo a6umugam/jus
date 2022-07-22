@@ -13,7 +13,13 @@
 
         <img class="cover-image" src="~/assets/gatineau.jpg" alt="">
 
-        <p class="about-container-sub" style="margin-top:20px;font-size:x-large;color:#000;padding:30px">Do you have a project in mind you wish to discuss with our expert? <br> Feel free to reach out to us: <strong>+1 (514) 292-3162</strong> <br><br> If you are unable to call us, you can fill out the form below. <br> We will get in touch with you as soon as possible.</p>
+        <div class="about-container-sub" >
+        <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_8tmvgkde.json"  background="transparent"  speed="1"  style="width:300px"  loop autoplay></lottie-player>
+        <p style="margin-top:20px;font-size:x-large;color:#000;padding:30px">Do you have a project in mind you wish to discuss with our expert? <br> Feel free to reach out to us: <strong>+1 (514) 292-3162</strong> <br><br> If you are unable to call us, you can fill out the form below. <br> We will get in touch with you as soon as possible.</p>
+
+        </div>
+
+
 
         <!-- <div class="space"></div> -->
 
@@ -51,7 +57,7 @@
 
         </div>
       </div>
-        <div class="space"></div>
+        <!-- <div class="space"></div> -->
       <Footer :textData="footerText" :altText="'A one-stop-shop for all your portal, web, and digital marketing requirements, now and in the future. '"/>
   </div>
 </template>
@@ -90,6 +96,8 @@ export default {
 }
 
 .about-container-sub{
+  display: flex;
+  justify-content: center ;
     text-align: center;
   color: #5d6a79;
   font-size: large;

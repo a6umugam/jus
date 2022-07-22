@@ -114,6 +114,7 @@ export default {
 .contact-message span{
   display: flex;
   width: 100%;
+  font-size: larger;
 }
 
 .contact-email{
@@ -125,6 +126,7 @@ export default {
 .contact-email span{
   display: flex;
   width: 100%;
+  font-size: larger;
 }
 
 .contact-email input{
