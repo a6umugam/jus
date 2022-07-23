@@ -8,8 +8,8 @@
         <img style="width:50%;z-index:-2" src="~/assets/plus_line.svg" alt="plus">
 
               <div class="cards-holder">
-                <Card :red="true" :long="true" :iconData="'globe'" :titleData="'Website Design'" :textData="'Understanding the content and the structure is a key aspect of web design. Responsive Website Design – a design that adapts to every screen. We create the best website design; we want your website to attract more traffic'"/>
-                <Card :purple="true" :long="true" :iconData="'lens'" :titleData="'Software Design and Development'" :textData="'We can assist you in bringing to reality your ideal software. We integrate the best software to make it easy for anyone to edit. Generate data reports in just one simple click'"/>
+                <Card :red="true" :long="true" :iconData="'globe'" :titleData="'Website Design'" :textData="'Understanding the content and the structure is a key aspect of web design. Responsive Website Design – a design that adapts to every screen. We create the best website design; we want your website to attract more traffic.'"/>
+                <Card :purple="true" :long="true" :iconData="'lens'" :titleData="'Software Design and Development'" :textData="'We can assist you in bringing to reality your ideal software. We integrate the best software to make it easy for anyone to edit. Generate data reports in just one simple click.'"/>
                 <Card :green="true" :long="true" :iconData="'mobile'" :titleData="'Mobile / Web Application Development'" :textData="'User-friendly apps on both Android and iOS We build apps to look perfect across all device types. Dynamic web applications that are user-friendly.'"/>
                 <Card :green="true" :long="true" :iconData="'card'" :titleData="'Cost-Effective'" :textData="'We offer high-end solutions and are accessible to small and medium business owners at affordable rates. Contact us for a free quote on your next project.'"/>
                 <Card :red="true" :long="true" :iconData="'film'" :titleData="'Video Production'" :textData="'We display your business or nonprofit organization’s mission, and promote products and ideas with animated videos.'"/>
@@ -27,7 +27,7 @@
         <div class="space"></div>
         <div class="end-card">
             <h1 >Let's create together!</h1>
-            <button v-on:click="goto('/contact')" >Get Free Quotation Now</button>
+            <button v-on:click="goto('/contact')" style="font-size: x-large;">Get Free Quotation Now</button>
         </div>
         </div>
       </div>

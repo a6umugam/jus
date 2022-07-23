@@ -20,7 +20,7 @@
 
   <div class="blockquote">
     <p>
-      "{{textData}}"
+      {{textData}}
         <br> <br>
         {{altText}}
      </p>

@@ -81,7 +81,7 @@ export default {
     justify-content: center;
     /* align-items: center; */
     /* background-color: #00000073; */
-    padding: 10px;
+    /* padding: 10px; */
     width: 100%;
     margin-top: 20px;
     
@@ -93,13 +93,12 @@ export default {
     justify-content: flex-start;
     /* align-items: flex-start; */
     flex-flow: column;
-    background-image: linear-gradient( 112deg, #FFDEE9 0%, #B5FFFC 100%);
-
+background-image: radial-gradient( circle farthest-corner at 5.3% 17.2%,  rgba(255,208,253,1) 0%, rgba(255,237,216,1) 90% );
     background-color: #eef6ff;
     border-radius: 12px;
     width: 100%;
-    max-width: 600px;
-    height: 600px;
+    /* max-width: 600px; */
+    height: 800px;
     padding: 25px;
 }
 
@@ -114,7 +113,7 @@ export default {
 .contact-message span{
   display: flex;
   width: 100%;
-  font-size: larger;
+  font-size: x-large;
 }
 
 .contact-email{
@@ -126,7 +125,7 @@ export default {
 .contact-email span{
   display: flex;
   width: 100%;
-  font-size: larger;
+  font-size: x-large;
 }
 
 .contact-email input{
@@ -134,17 +133,20 @@ export default {
     height: 40px;
     border-radius: 10px;
     outline: none;
-    border: 2px #686868 solid;
+    border: none;
+    /* border: 1px #686868 solid; */
     padding: 5px;
     font-size: large;
 }
 
 .contact-form form label textarea{
+  resize: none;
     height: 100%;
     width: 100%;
-    max-width: 550px;
+    /* max-width: 550px; */
     margin-bottom: 25px;
-    border: 2px #686868 solid;
+    /* border: 1px #686868 solid; */
+    border: none;
     border-radius: 10px;
     padding: 5px;
     font-size: large;

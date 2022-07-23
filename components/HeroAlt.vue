@@ -35,7 +35,7 @@
         that will exceed your expectations so far</p> -->
 
         <h1 class="text-slogan">
-            Full-service <strong>Web</strong> solutions to help your business<strong> grow!</strong>
+            "Full-service <strong>Web</strong> solutions to help your business<strong> grow</strong>"
         </h1>
 
         <img style="z-index:-2" src="~/assets/platforms.svg" alt="platforms">
@@ -73,7 +73,7 @@
 
         <div class="mid-card gradi">
 
-            <p class="subtitle" style="text-align: start;max-width: 100%;">
+            <p class="subtitle" style="font-size:30px;text-align: start;max-width: 100%;font-family: 'Berkshire Swash', cursive;">
                 We believe in developing solutions that earn you money while saving
                 you money. So we get the job done correctly from the get-go.
             </p>
@@ -175,7 +175,7 @@
         
         <!-- <a href="/services" class="o-button">More <img src="~/assets/icons/arrow.svg" alt=">" width="32"></a> -->
 
-        <img class="proc-image" src="~/assets/jus_proc.svg" alt="process">
+        <img class="proc-image" src="~/assets/jus_proc_new_one.png" alt="process">
 
         <button v-on:click="goto('/contact')" style="font-size: x-large;"> Lets Get Started</button>
         <div class="space"></div>

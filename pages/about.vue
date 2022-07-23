@@ -95,7 +95,7 @@
         <div class="space"></div>
         <div class="end-card">
             <h2>Let us be part of your team <br> and let's create together!</h2>
-            <button v-on:click="goto('/contact')" >Get Free Quotation Now</button>
+            <button v-on:click="goto('/contact')" style="font-size: x-large;">Get Free Quotation Now</button>
         </div>
         </div>
       </div>

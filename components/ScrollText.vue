@@ -1,6 +1,6 @@
 <template>
     <div id="scroll-container">
-        <div id="scroll-text"><p>Building the <strong>Websites</strong>  & <strong>Apps</strong>, You've Always <strong>Dreamed</strong> of. We create <strong>professional, beautiful</strong> and <strong>unique</strong> website designs for small to large businesses</p><div>
+        <div id="scroll-text"><p>Building the <strong>Websites</strong>  & <strong>Apps</strong>, You've Always <strong>Dreamed</strong> of. We create <strong>professional, beautiful</strong> and <strong>unique</strong> website designs for small to large businesses.</p><div>
     </div>
         </div>
     </div>
