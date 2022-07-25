@@ -1,5 +1,6 @@
 <template>
-  <div class="navbar-alt">
+<!-- FRENCH VERSION HERE -->
+  <div class="navbar-alt" v-if="isFr">
 
         <div class="info-bar-alt" v-bind:class="{ incpadding: stickIt }">
         <div>
@@ -10,15 +11,48 @@
 
       <div class="transbg backdrop-blur small-nav" v-bind:class="{ sticky: stickIt }">
         <div class="navbar-content-alt">
-          <img src="~/assets/jus_green.svg" alt="logo" width=350 heigh v-on:click="goto('/')" class="logo">
+          <img src="~/assets/jus_green_fr.svg" alt="logo" width=350 heigh v-on:click="goto('/')" class="logo">
           <div class="nav-links">
-              <a href="/services">What we Offer</a>
+              <a href="/services">Nos Services</a>
               <!-- <a href="/portfolio">Portfolio</a> -->
-              <a href="/about">About</a>
+              <a href="/about">À propos</a>
               <a href="/contact">Contact</a>
           </div>
           <div class="nav-buttons">
-              <button v-on:click="goto('/contact')" >Free Quote</button>
+              <button v-on:click="goto('/contact')" >Devis gratuit</button>
+              <a href="/indexen"><strong>Fr</strong> / En</a>
+          </div>
+      </div>
+      </div>
+
+      <div class="mobile-bar">
+        <a href="/services">Nos Services</a>
+        <a href="/portfolio">Portfolio</a>
+        <a href="/about">À propos</a>
+      </div>
+  </div>
+<!-- ENGLISH VERSION HERE -->
+  <div class="navbar-alt" v-else>
+
+        <div class="info-bar-alt" v-bind:class="{ incpadding: stickIt }">
+        <div>
+            <p><img src="~/assets/icons/phone.svg" width="28" alt="people"> <strong>+1 (514) 292-3162</strong> </p>
+            <p><img src="~/assets/icons/email.svg" width="28" alt="people"> <strong>info@jusmulticreation.ca</strong> </p>
+        </div>
+      </div>
+
+      <div class="transbg backdrop-blur small-nav" v-bind:class="{ sticky: stickIt }">
+        <div class="navbar-content-alt">
+          <img src="~/assets/jus_green.svg" alt="logo" width=350 heigh v-on:click="goto('/indexen')" class="logo">
+          <div class="nav-links">
+              <a href="/servicesen">What we Offer</a>
+              <!-- <a href="/portfolio">Portfolio</a> -->
+              <a href="/abouten">About</a>
+              <a href="/contacten">Contact</a>
+          </div>
+          <div class="nav-buttons">
+              <button v-on:click="goto('/contacten')" >Free Quote</button>
+              <a href="/">Fr / <strong>En</strong> </a>
           </div>
       </div>
       </div>
@@ -28,24 +62,12 @@
         <a href="/portfolio">Portfolio</a>
         <a href="/about">About</a>
       </div>
-
-      <!-- <div class="info-bar-alt">
-        <div>
-            <section>
-            <p> <strong>Website, Software &</strong> </p>
-            <p> <strong>Mobile App</strong> </p>
-            </section>
-            <p>Building the <strong>Websites</strong>  & <strong>Apps</strong>, You've Always <strong>Dreamed</strong> of. We create <strong>professional, beautiful</strong> and <strong>unique</strong> website designs for small to large businesses</p>
-        </div>
-      </div> -->
-
-    <ContactForm v-if="formView" @closeMenu="formView = !formView" />
-
   </div>
 </template>
 
 <script>
 export default {
+    props:{isFr:false},
     data() {
     return {
         formView:false,
@@ -80,6 +102,22 @@ export default {
 </script>
 
 <style>
+.nav-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-buttons a{
+    margin-left: 10px;
+    border: 1.5px solid #12AAF3;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.nav-buttons a strong{
+    color: #e84279;
+}
 .info-bar-alt{
     /* background-color: #48ff87; */
     background: rgb(0,239,255);

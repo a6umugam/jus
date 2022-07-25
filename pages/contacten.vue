@@ -1,12 +1,12 @@
 <template>
   <div>
-      <NavBarAlt :isFr="true"/>
+      <NavBarAlt/>
       <div class="container">
           
         <div class="about-container">
 
-        <h1 class="gradient-text" style="color:#2a5487;font-weight:1200">Entrer en contact</h1>
-        <h1 > Solutions Web Gatineau<br> <strong>Compagnie</strong></h1>
+        <h1 class="gradient-text" style="color:#2a5487;font-weight:1200">Get In Touch</h1>
+        <h1 > Gatineau Web Solutions<br> <strong>Company</strong></h1>
         <!-- <div class="image-bg">
         <br>
         </div> -->
@@ -15,7 +15,7 @@
 
         <div class="about-container-sub" >
         <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_8tmvgkde.json"  background="transparent"  speed="1"  style="width:300px"  loop autoplay></lottie-player>
-        <p style="margin-top:20px;font-size:x-large;color:#000;padding:30px">Vous avez un projet en tête dont vous souhaitez discuter avec notre expert ? <br> N'hésitez pas à nous joindre : <strong>+1 (514) 292-3162</strong> <br><br> Si vous ne parvenez pas à nous appeler, vous pouvez remplir le formulaire ci-dessous. <br> Nous vous contacterons dès que possible.</p>
+        <p style="margin-top:20px;font-size:x-large;color:#000;padding:30px">Do you have a project in mind you wish to discuss with our expert? <br> Feel free to reach out to us: <strong>+1 (514) 292-3162</strong> <br><br> If you are unable to call us, you can fill out the form below. <br> We will get in touch with you as soon as possible.</p>
 
         </div>
 
@@ -23,7 +23,7 @@
 
         <!-- <div class="space"></div> -->
 
-    <ContactForm :isFr='true' />
+    <ContactForm />
 
 
         <div class="contact-holder">
@@ -58,7 +58,7 @@
         </div>
       </div>
         <!-- <div class="space"></div> -->
-      <Footer :textData="footerText" :altText="'Un guichet unique pour tous vos besoins en matière de portail, de Web et de marketing numérique, maintenant et à l’avenir. '"/>
+      <Footer :textData="footerText" :altText="'A one-stop-shop for all your portal, web, and digital marketing requirements, now and in the future. '"/>
   </div>
 </template>
 
@@ -68,7 +68,7 @@ import Footer from "~/components/Footer.vue";
 export default {
   data(){
     return{
-      footerText: "Besoin de créer un outil ou une plateforme en ligne qui n'existe pas encore ? Nous pouvons aider."
+      footerText: "Need to build an online tool or platform that doesn't exist yet? We can help."
     }
   },
     components: { NavBarAlt, Footer }

@@ -7,7 +7,7 @@
             </div>
 
             <div class="kard-content">
-                <h2>{{titleData}}</h2>
+                <h2 style="text-align:start">{{titleData}}</h2>
                 <p style="text-align:start">{{textData}}</p>
             </div>
         </div>
@@ -97,7 +97,7 @@ export default {
     height: 100%;
     width: 100%;
     padding-top: 50px;
-    padding: 60px 10px 10px 10px;
+    padding: 50px 10px 10px 10px;
     align-items: flex-start;
 }
 
@@ -110,10 +110,10 @@ export default {
 }
 
 .longr{
-    height: 400px;
+    height: 450px;
 }
 
 .longc{
-    height: 500px;
+    height: 600px;
 }
 </style>

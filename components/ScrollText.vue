@@ -1,14 +1,13 @@
 <template>
     <div id="scroll-container">
-        <div id="scroll-text"><p>Building the <strong>Websites</strong>  & <strong>Apps</strong>, You've Always <strong>Dreamed</strong> of. We create <strong>professional, beautiful</strong> and <strong>unique</strong> website designs for small to large businesses.</p><div>
-    </div>
-        </div>
+        <div id="scroll-text" v-if="isFr"><p>Construire les sites Web et les applications dont vous avez toujours rêvé. Nous créons des sites Web professionnels, beaux et uniques pour les petites et grandes entreprises.</p><div></div></div>
+        <div id="scroll-text" v-else ><p>Building the <strong>Websites</strong>  & <strong>Apps</strong>, You've Always <strong>Dreamed</strong> of. We create <strong>professional, beautiful</strong> and <strong>unique</strong> website designs for small to large businesses.</p><div></div></div>
     </div>
 </template>
 
 <script>
 export default {
-    props:{textData:'',altText:''},
+    props:{textData:'',altText:'',isFr:false},
 }
 </script>
 
@@ -30,7 +29,7 @@ export default {
   -moz-transform: translateX(100%);
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
-  min-width: 2000px;
+  min-width: 2100px;
   -moz-animation: my-animation 45s linear infinite;
   -webkit-animation: my-animation 45s linear infinite;
   animation: my-animation 45s linear infinite;

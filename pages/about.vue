@@ -1,69 +1,80 @@
 <template>
   <div>
-      <NavBarAlt/>
+      <NavBarAlt :isFr="true"/>
       <div class="container">
           <div class="about-container">
               <!-- <img class="cover-image" src="~/assets/jus-about.jpg" alt="creative"> -->
 
                 <!-- <div class="space"></div> -->
-                <h1 style="margin:20px"><strong>Web design</strong> company in <strong>Gatineau</strong></h1>
+                <h1 style="margin:20px"><strong>Entreprise</strong> de <strong>conception Web</strong> à Gatineau</h1>
 
         <!-- <img style="width:50%;z-index:-2" src="~/assets/plus_line.svg" alt="plus"> -->
 
 
                 <div class="line-box">
-                    <p style="text-align: start;font-size: x-large;"><strong>JUS Multi Creation is a trusted full-service web solution company
-                    based in Canada.</strong>
+                    <p style="text-align: start;font-size: x-large;"><strong>JUS Multi Creation est une entreprise de solutions Web à service complet de confiance basée au Canada.</strong>
                     <br><br>
-                    - We provide a range of customized services, including website
-                    design, software and application development, animation
-                    videos, and graphic design, we pretty much do it all.
+                    - Nous fournissons une gamme de services
+                    personnalisés, y compris la conception de sites
+                    Web, le développement de logiciels et
+                    d'applications, des vidéos d'animation et la
+                    conception graphique, nous faisons à peu près tout.
                     <br><br>
-                    - Our team of top experts offers effective design solutions that
-                    are attractive, functional and can meet both your budget and deadline concerns. We are here to help you take the next step towards your goal !
+                    - Notre équipe d'experts de haut niveau propose
+                    des solutions de conception efficaces,
+                    attrayantes, fonctionnelles et pouvant répondre à
+                    la fois à vos préoccupations de budget et de délai.
+                    Nous sommes là pour vous aider à franchir la
+                    prochaine étape vers votre objectif !
                     <br><br>
-                    <strong>JUS Multi Creation is committed to providing cost-effective solutions
-                    and focuses its services on community-based organizations and
-                    new entrepreneurs.</strong><br><br>
-                    - We find ways to make your goals attainable, manageable, and
-                    impactful.<br><br>
-                    - Our service delivery, customer service, and company policy
-                    are focused on providing you with the best possible
-                    experience. Feel free to contact us, we will be happy to help in
-                    any way we can.
+                    <strong>JUS Multi Création s'engage à fournir des
+                    solutions rentables et concentre ses services
+                    sur les organismes communautaires et les
+                    nouveaux entrepreneurs.</strong><br><br>
+                    - Nous trouvons des moyens de rendre vos
+                    objectifs atteignables, gérables et percutants.<br><br>
+                    - Notre prestation de services, notre service client
+                    et notre politique d'entreprise visent à vous offrir
+                    la meilleure expérience possible. N'hésitez pas à
+                    nous contacter, nous serons heureux de vous
+                    aider de toutes les manières possibles.
                     </p>
                 </div>
         <img style="transform: scaleY(-1);width:40%;z-index:-2" src="~/assets/plus_line.svg" alt="plus">
 
         
 
-              <h1>We <strong>care</strong> about <strong>results</strong> as much <strong>as you do</strong> !!!</h1>
+              <h1>Nous nous <strong>soucions</strong> des <strong>résultats</strong> autant <strong>que vous !!!</strong></h1>
 
         <img style="width:40%;z-index:-2" src="~/assets/plus_line.svg" alt="plus">
 
               <div class="cards-holder">
             <div class="card">
                 <img src="~/assets/icons/award.svg" alt="people">
-                <h2>High-Quality Services</h2>
-                <p>We are always committed to bring the best results and specialized outputs to your project.</p>
+                <h2>Services de haute qualité</h2>
+                <p>Nous nous engageons toujours à apporter les meilleurs résultats et des sorties spécialisées à votre projet.</p>
             </div>
 
             <div class="card">
                 <img src="~/assets/icons/face.svg" alt="flash">
-                <h2>Friendly Support</h2>
-                <p>We have a passion for design, and we love what we do and we know you’ll enjoy working with us.</p>
+                <h2>Soutien amical</h2>
+                <p>Nous avons une passion pour le design, nous aimons ce que nous faisons et nous savons que vous aimerez travailler avec nous.</p>
             </div>
 
             <div class="card">
                 <img src="~/assets/icons/bulb.svg" alt="flash">
-                <h2>Creative Business Services</h2>
-                <p>We know design. Our team will craft a unique design based on your vision and direction.</p>
+                <h2>Services aux entreprises créatives</h2>
+                <p>Nous connaissons le design. Notre équipe créera
+                un design unique basé sur votre vision et votre
+                direction.</p>
             </div>
 
             <div class="card">
                 <img src="~/assets/icons/flash.svg" alt="flash">
-                <h2>Newest technology</h2>
-                <p>We work with the very latest and greatest in industry standards and available technology.</p>
+                <h2>Technologie la plus récente</h2>
+                <p>Nous travaillons avec les toutes dernières et
+                meilleures normes de l'industrie et la technologie
+                disponible.</p>
             </div>
 
             <!-- <div class="card">
@@ -74,33 +85,37 @@
 
             <div class="card">
                 <img src="~/assets/icons/layout.svg" alt="flash">
-                <h2>Responsive solutions</h2>
-                <p>Our solutions look great and function properly on all devices and browsers.</p>
+                <h2>Solutions réactives</h2>
+                <p>Nos solutions ont fière allure et fonctionnent
+                correctement sur tous les appareils et
+                navigateurs.</p>
             </div>
 
             <div class="card">
                 <img src="~/assets/icons/chart.svg" alt="flash">
-                <h2>Competitive Pricing</h2>
-                <p>We offer special discount for non-profit groups and new enterpreneurs.</p>
+                <h2>Des prix compétitifs</h2>
+                <p>Nous offrons une remise spéciale aux groupes à
+                but non lucratif et aux nouveaux entrepreneurs.</p>
             </div>
 
             <div class="card">
                 <img src="~/assets/icons/clock.svg" alt="globe" >
-                <h2>On-time Delivery</h2>
-                <p>We don’t want delays, and neither do you? Once everything is in place, we can start your project and finish it within the agreed period.</p>
+                <h2>Délais de livraison respectés</h2>
+                <p>Nous ne voulons pas de retards, et vous non plus
+                ? Une fois que tout est en place, nous pouvons démarrer votre projet et le terminer dans les délais convenus.</p>
             </div>
         </div>
 
 
         <div class="space"></div>
         <div class="end-card">
-            <h2>Let us be part of your team <br> and let's create together!</h2>
-            <button v-on:click="goto('/contact')" style="font-size: x-large;">Get Free Quotation Now</button>
+            <h2>Faisons partie de votre équipe et créons ensemble !</h2>
+            <button v-on:click="goto('/contact')" style="font-size: x-large;">Obtenez un devis gratuit maintenant</button>
         </div>
         </div>
       </div>
         <div class="space"></div>
-      <Footer :textData="'We are here to help you take the next step towards your goal.'"/>
+      <Footer :textData="'Nous sommes là pour vous aider à franchir la prochaine étape vers votre objectif.'"/>
       <!-- <ContactForm v-if="formView" @closeMenu="formView = !formView" /> -->
 
   </div>

@@ -1,38 +1,41 @@
 <template>
   <div>
-      <NavBarAlt/>
+      <NavBarAlt :isFr="true"/>
       <div class="container">
           <div class="about-container">
-                <h1 style="margin:20px">What do We <strong>Offer?</strong></h1>
+                <h1 style="margin:20px">Que <strong>proposons-nous ?</strong></h1>
                 <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_tjrlxjj9.json"  background="transparent"  speed="1"  style="width:500px"  loop autoplay></lottie-player>
         <img style="width:50%;z-index:-2" src="~/assets/plus_line.svg" alt="plus">
 
               <div class="cards-holder">
-                <Card :red="true" :long="true" :iconData="'globe'" :titleData="'Website Design'" :textData="'Understanding the content and the structure is a key aspect of web design. Responsive Website Design – a design that adapts to every screen. We create the best website design; we want your website to attract more traffic.'"/>
-                <Card :purple="true" :long="true" :iconData="'lens'" :titleData="'Software Design and Development'" :textData="'We can assist you in bringing to reality your ideal software. We integrate the best software to make it easy for anyone to edit. Generate data reports in just one simple click.'"/>
-                <Card :green="true" :long="true" :iconData="'mobile'" :titleData="'Mobile / Web Application Development'" :textData="'User-friendly apps on both Android and iOS We build apps to look perfect across all device types. Dynamic web applications that are user-friendly.'"/>
-                <Card :green="true" :long="true" :iconData="'card'" :titleData="'Cost-Effective'" :textData="'We offer high-end solutions and are accessible to small and medium business owners at affordable rates. Contact us for a free quote on your next project.'"/>
-                <Card :red="true" :long="true" :iconData="'film'" :titleData="'Video Production'" :textData="'We display your business or nonprofit organization’s mission, and promote products and ideas with animated videos.'"/>
-                <Card :purple="true" :long="true" :iconData="'cart'" :titleData="'E-commerce'" :textData="'Our solution is designed to ease the process of running and operating your online store.'"/>
-                <Card :red="true" :long="true" :iconData="'award'" :titleData="'Website Development & Maintenance'" :textData="'If your website is out of date and no longer supports your brand, we will help you! Regular monitoring of your website is a must for keeping your business running smoothly.'"/>
-                <Card :purple="true" :long="true" :iconData="'face'" :titleData="'Branding and Logo Design'" :textData="'We are committed to delivering 100% unique and innovative designs to our clients. Our customized logo will surely help you find a successful business identity in the market.'"/>
-                <Card :green="true" :long="true" :iconData="'layout'" :titleData="'Simple Interfaces'" :textData="'Our solutions are simple to apply. All you need is access to the internet, enabling you to make changes from anywhere.'"/>
-                <Card :green="true" :long="true" :iconData="'heart'" :titleData="'Social Media Marketing'" :textData="'Our team designs and develops effective, engaging social media campaigns for our clients to promote their business and reach their target audience.'"/>
-                <Card :red="true" :long="true" :iconData="'chart'" :titleData="'Content Marketing'" :textData="'We use a collaborative approach to content creation and marketing. We respect your ideas while also simultaneously deploying your content to meet the target market.'"/>
-                <Card :purple="true" :long="true" :iconData="'flash'" :titleData="'Remote IT Support'" :textData="'We subject your company’s IT systems to your needs by providing and applying the best maintenance solutions. So, you can focus on what you do best.'"/>
+                <Card :red="true" :long="true" :iconData="'globe'" :titleData="'Conception de site'" :textData="'Web Comprendre le contenu et la structure est un aspect clé de la conception Web. Conception de site Web réactif - une conception qui s’adapte à chaque écran. Nous créons la meilleure conception de site Web; nous voulons que votre site Web attire plus de trafic.'"/>
+                <Card :purple="true" :long="true" :iconData="'lens'" :titleData="'Conception et développement de logiciels'" :textData="'Nous pouvons vous aider à concrétiser votre logiciel idéal. Nous intégrons les meilleurs logiciels pour faciliter l’édition par quiconque. Générez des rapports de données en un seul clic.'"/>
+                <Card :green="true" :long="true" :iconData="'mobile'" :titleData="'Développement d’applications mobiles/Web'" :textData="'Applications conviviales sur Android et iOS. Nous concevons des applications parfaites sur tous les types d’appareils. Applications Web dynamiques et conviviales.'"/>
+
+                <Card :green="true" :long="true" :iconData="'card'" :titleData="'Rentable'" :textData="'Nous offrons des solutions haut de gamme et sommes accessibles aux propriétaires de petites et moyennes entreprises à des tarifs abordables. Contactez-nous pour un devis gratuit sur votre prochain projet.'"/>
+                <Card :red="true" :long="true" :iconData="'film'" :titleData="'Production vidéo'" :textData="'Nous affichons la mission de votre entreprise ou de votre organisation à but non lucratif et faisons la promotion de produits et d’idées avec des vidéos animées.'"/>
+
+                <Card :purple="true" :long="true" :iconData="'cart'" :titleData="'Commerce électronique'" :textData="'Notre solution est conçue pour faciliter le processus de gestion et d’exploitation de votre boutique en ligne.'"/>
+                <Card :red="true" :long="true" :iconData="'award'" :titleData="'Développement et maintenance du site Web'" :textData="'Si votre site Web est obsolète et ne prend plus en charge votre marque, nous vous aiderons ! Une surveillance régulière de votre site Web est indispensable au bon fonctionnement de votre entreprise.'"/>
+                <Card :purple="true" :long="true" :iconData="'face'" :titleData="'Image de marque et conception de logo'" :textData="'Nous nous engageons à fournir des designs 100% uniques et innovants à nos clients. Notre logo personnalisé vous aidera sûrement à trouver une identité commerciale réussie sur le marché.'"/>
+
+                <Card :green="true" :long="true" :iconData="'layout'" :titleData="'Interfaces simples'" :textData="'Nos solutions sont simples à appliquer. Tout ce dont vous avez besoin est un accès à Internet, vous permettant d’apporter des modifications où que vous soyez.'"/>
+                <Card :green="true" :long="true" :iconData="'heart'" :titleData="'Marketing des médias sociaux'" :textData="'Notre équipe conçoit et développe des campagnes de médias sociaux efficaces et engageantes pour nos clients afin de promouvoir leur entreprise et d’atteindre leur public cible.'"/>
+                <Card :red="true" :long="true" :iconData="'chart'" :titleData="'Marketing de contenu'" :textData="'Nous utilisons une approche collaborative pour la création de contenu et le marketing. Nous respectons vos idées tout en déployant simultanément votre contenu pour répondre au marché cible.'"/>
+                <Card :purple="true" :long="true" :iconData="'flash'" :titleData="'Assistance informatique à distance'" :textData="'Nous soumettons les systèmes informatiques de votre entreprise à vos besoins en fournissant et en appliquant les meilleures solutions de maintenance. Ainsi, vous pouvez vous concentrer sur ce que vous faites le mieux.'"/>
                 
         </div>
 
 
         <div class="space"></div>
         <div class="end-card">
-            <h1 >Let's create together!</h1>
-            <button v-on:click="goto('/contact')" style="font-size: x-large;">Get Free Quotation Now</button>
+            <h1 >Créons ensemble !</h1>
+            <button v-on:click="goto('/contact')" style="font-size: x-large;">Obtenez un devis gratuit maintenant</button>
         </div>
         </div>
       </div>
         <!-- <div class="space"></div> -->
-      <Footer :textData="'Every business needs a strong online presence to compete in the current marketplace.'"/>
+      <Footer :textData="'Chaque entreprise a besoin d’une forte présence en ligne pour être compétitive sur le marché actuel.'"/>
       <!-- <ContactForm v-if="formView" @closeMenu="formView = !formView" /> -->
 
   </div>

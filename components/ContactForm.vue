@@ -1,5 +1,29 @@
 <template>
-  <div class="contact-form">
+<!-- FRENCH -->
+  <div class="contact-form" v-if="isFr">
+    <form  @submit.prevent="submitForm">
+    <label class="contact-email">
+      <span>Nom</span>
+      <input  type="text" v-model="name" name="name">
+    </label>
+    <label class="contact-email">
+      <span>Téléphone</span>
+      <input  type="text" v-model="phone" name="phone">
+    </label>
+    <label class="contact-email">
+      <span>Courriel</span>
+      <input  type="text" v-model="email" name="email">
+    </label>
+    <label class="contact-message">
+      <span>Message</span>
+      <textarea name="message" v-model="message"></textarea>
+    </label>
+    <h3 v-if="errormsg" class="error-message">{{errormsg}}</h3>
+    <button type="submit">Soumettre</button>
+  </form>
+  </div>
+<!-- ENGLISH -->
+  <div class="contact-form" v-else>
     <form  @submit.prevent="submitForm">
     <label class="contact-email">
       <span>Name</span>
@@ -27,6 +51,7 @@
 const FORMSPARK_ACTION_URL = "https://submit-form.com/NS3H4ss2";
 
 export default {
+  props:{isFr:false},
   data() {
     return {
         errormsg:'',
@@ -119,7 +144,6 @@ background-image: radial-gradient( circle farthest-corner at 5.3% 17.2%,  rgba(2
 .contact-email{
     width: 100%;
     margin-bottom: 25px;
-
 }
 
 .contact-email span{
