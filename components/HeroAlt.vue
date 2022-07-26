@@ -17,7 +17,7 @@
             
             <section class="text-place gradient-text">
                 <p style="font-style:italic">
-                Promote your product or idea with animated videos!
+                Promote your product and idea with animated videos!
                 </p>
             </section>
 

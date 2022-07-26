@@ -12,7 +12,7 @@
 
 
                 <div class="line-box">
-                    <p style="text-align: start;font-size: x-large;"><strong>JUS Multi Creation est une entreprise de solutions Web à service complet de confiance basée au Canada.</strong>
+                    <p style="text-align: start;font-size: x-large;"><strong>JUS Multi Creation est une entreprise canadienne de solutions Web, offrant des services digne de confiance.</strong>
                     <br><br>
                     - Nous fournissons une gamme de services
                     personnalisés, y compris la conception de sites
@@ -20,23 +20,23 @@
                     d'applications, des vidéos d'animation et la
                     conception graphique, nous faisons à peu près tout.
                     <br><br>
-                    - Notre équipe d'experts de haut niveau propose
-                    des solutions de conception efficaces,
-                    attrayantes, fonctionnelles et pouvant répondre à
-                    la fois à vos préoccupations de budget et de délai.
-                    Nous sommes là pour vous aider à franchir la
-                    prochaine étape vers votre objectif !
+                    - Notre équipe d'experts de haut niveau propose des
+                    solutions de conception efficaces, attrayantes et
+                    fonctionnelles, pouvant répondre à la fois à vos
+                    préoccupations de budget et de délais. Nous
+                    sommes là pour vous aider à franchir la prochaine
+                    étape vers votre objectif !
                     <br><br>
-                    <strong>JUS Multi Création s'engage à fournir des
-                    solutions rentables et concentre ses services
-                    sur les organismes communautaires et les
-                    nouveaux entrepreneurs.</strong><br><br>
-                    - Nous trouvons des moyens de rendre vos
-                    objectifs atteignables, gérables et percutants.<br><br>
-                    - Notre prestation de services, notre service client
-                    et notre politique d'entreprise visent à vous offrir
-                    la meilleure expérience possible. N'hésitez pas à
-                    nous contacter, nous serons heureux de vous
+                    <strong>JUS Multi Création s'engage à fournir des solutions
+                    rentables et concentre ses services sur les
+                    organismes communautaires et les nouveaux
+                    entrepreneurs.</strong><br><br>
+                    - Nous trouvons des moyens de rendre vos objectifs
+                    atteignables, gérables et percutants.<br><br>
+                    - Nos prestations de services, nos services à la
+                    clientèle et notre politique d'entreprise visent à vous
+                    offrir la meilleure expérience possible. N'hésitez pas
+                    à nous contacter, nous serons heureux de vous
                     aider de toutes les manières possibles.
                     </p>
                 </div>
@@ -64,9 +64,8 @@
             <div class="card">
                 <img src="~/assets/icons/bulb.svg" alt="flash">
                 <h2>Services aux entreprises créatives</h2>
-                <p>Nous connaissons le design. Notre équipe créera
-                un design unique basé sur votre vision et votre
-                direction.</p>
+                <p>Nous connaissons le design. Notre équipe
+                créera un design unique, suivant votre vision et votre direction.</p>
             </div>
 
             <div class="card">

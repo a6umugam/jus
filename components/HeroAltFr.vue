@@ -17,7 +17,7 @@
             
             <section class="text-place gradient-text">
                 <p style="font-style:italic">
-                Faites la promotion de votre produit ou de votre idée avec des vidéos animées !
+                Faites la promotion de vos produits et services en vidéo !
                 </p>
             </section>
 
@@ -35,7 +35,7 @@
         that will exceed your expectations so far</p> -->
 
         <h1 class="text-slogan">
-            "Des solutions <strong>Web</strong> complètes pour aider votre entreprise à se <strong>developer</strong>"
+            “ Des solutions <strong>Web</strong> complètes pour d’aider votre entreprise à se <strong>développer</strong> ”
             <!-- "Full-service <strong>Web</strong> solutions to help your business<strong> grow</strong>" -->
         </h1>
 
@@ -64,7 +64,9 @@
                 
 
                 <h2 class="gradient-text" style="margin-top:20px">
-                Nous sommes fiers de guider nos clients vers le succès - et de créer des solutions intelligentes qui minimisent les risques et maximisent les récompenses.
+                Nous sommes fiers de pouvoir guider nos clients vers le succès
+                avec des solutions qui visent à minimiser les risques et maximiser
+                les récompenses.
                 </h2>
             </div>
             </div>
@@ -74,15 +76,15 @@
 
         <div class="mid-card gradi">
 
-            <p class="subtitle" style="font-size:30px;text-align: start;max-width: 100%;font-family: 'Berkshire Swash', cursive;">
-                Nous croyons au développement de solutions qui vous rapportent de l'argent tout en vous faisant économiser de l'argent. Nous faisons donc le travail correctement dès le départ.
+            <p class="subtitle" style="font-size:30px;text-align: start;min-width: 100%;font-family: 'Berkshire Swash', cursive;">
+                Nous élaborons des solutions qui vous apportent de l'argent et non qui vous en fait perdre. Nous faisons donc notre travail correctement, dès le départ.
             </p>
 
             <div class="cards-holder">
 
                 <Card :red="true" :iconData="'people'" :titleData="'Expertise informatique'" :textData="'Nous avons plus de 30 professionnels formés dans une gamme de domaines technologiques. Notre objectif est simple, vous offrir la meilleure expérience possible.'"/>
-                <Card :purple="true" :iconData="'clock'" :titleData="'Assistance 24h/7'" :textData="'Nous fournissons une assistance 24h/24 et 7j/7 à tous nos précieux clients. Si vous avez des questions ou rencontrez des problèmes, nous vous répondrons dans les 30 minutes.'"/>
-                <Card :green="true" :iconData="'card'" :titleData="'Abordable'" :textData="'Nos services sont abordables et adaptés à votre budget. Nous ne surchargeons pas nos précieux clients.'"/>
+                <Card :purple="true" :iconData="'clock'" :titleData="'Assistance 24h/7'" :textData="'Nous offrons notre assistance 24h/24 et 7j/7 à tous nos précieux clients. Si vous avez des questions ou rencontrez des problèmes, nous vous répondrons dans un délai de 30 minutes.'"/>
+                <Card :green="true" :iconData="'card'" :titleData="'Abordable'" :textData="'Nos services sont abordables et adaptés à votre budget. Nous ne vous surchargons pas.'"/>
 
             <!-- <div class="thecard">
                 <div class="thefront">
@@ -205,12 +207,11 @@
     <div class="mid-card grey">
         <img src="~/assets/corner_design.svg" alt="corner">
         <p class="subtitle"  style="color: white;">
-        Nous avons les <strong>ressources, la vision</strong> et <strong>l'expérience</strong> nécessaires pour
-        concevoir n'importe quel site Web pour n'importe quelle entreprise avec
-        <strong>intégrité</strong> et style. <strong>Notre équipe de concepteurs Web de haut</strong> niveau
-        fournit des solutions de conception efficaces avec des fonctionnalités
-        <strong>attrayantes et fonctionnelles.</strong> Ceux-ci répondront à la fois à vos soucis de
-        budget et de délais.
+        Nous avons les <strong>ressources, la vision</strong> et <strong>l'expérience</strong> nécessaires pour 
+        concevoir n'importe quel site web, pour n’importe quelle entreprise <br> ayant de
+        l’intégrité et du style. <strong>Notre équipe de haut</strong> niveau fournit <br> des solutions de
+        conceptions efficaces, ayant des fonctionnalités <strong>attrayantes et fonctionnelles.</strong>
+        Celles-ci seront adaptées à votre <br> budget et vos délais.
     </p>
     </div>
 

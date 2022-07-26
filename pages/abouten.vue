@@ -51,7 +51,7 @@
             <div class="card">
                 <img src="~/assets/icons/face.svg" alt="flash">
                 <h2>Friendly Support</h2>
-                <p>We have a passion for design, and we love what we do and we know you’ll enjoy working with us.</p>
+                <p>We have a passion for design, we love what we do and we know you will enjoy working with us.</p>
             </div>
 
             <div class="card">

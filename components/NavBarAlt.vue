@@ -20,7 +20,7 @@
           </div>
           <div class="nav-buttons">
               <button v-on:click="goto('/contact')" >Devis gratuit</button>
-              <a href="/indexen"><strong>Fr</strong> / En</a>
+              <a href="/indexen"><img src="~/assets/icons/language-solid.svg" alt="lang" width="28">English</a>
           </div>
       </div>
       </div>
@@ -52,7 +52,7 @@
           </div>
           <div class="nav-buttons">
               <button v-on:click="goto('/contacten')" >Free Quote</button>
-              <a href="/">Fr / <strong>En</strong> </a>
+              <a href="/"> <img src="~/assets/icons/language-solid.svg" alt="lang" width="28"> Français</a>
           </div>
       </div>
       </div>
@@ -112,7 +112,11 @@ export default {
     margin-left: 10px;
     border: 1.5px solid #12AAF3;
     border-radius: 5px;
-    padding: 5px;
+    padding: 7px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
 }
 
 .nav-buttons a strong{
@@ -137,7 +141,7 @@ export default {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1100px;
+    max-width: 1300px;
 }
 .info-bar-alt p{
     color: #435264;
@@ -215,7 +219,7 @@ height: 90px;
     padding: 10px;
     display: flex;
     width: 100vw;
-    max-width: 1100px;
+    max-width: 1300px;
     justify-content: space-between;
     align-items: center;
 }

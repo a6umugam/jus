@@ -2,7 +2,7 @@
   <div>
     <NavBarAlt :isFr="true"/>
     <HeroAltFr/>
-    <Footer :textData="'Une fois votre site Web lancé, nous pouvons continuer à nous en occuper. Notre plan de maintenance vous permet de nous envoyer du nouveau contenu et des images ou de demander des changements de mise en page à tout moment.'"/>
+    <Footer :textData="'Une fois votre site Web lancé, nous pouvons continuer à nous en occuper. Notre plan de maintenance vous permettra de nous envoyer du nouveau contenu, des images ou faire des demandes de changements de mise en page, à tout moment.'"/>
   </div>
 </template>
 

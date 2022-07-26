@@ -14,7 +14,7 @@
         <img class="cover-image" src="~/assets/gatineau.jpg" alt="">
 
         <div class="about-container-sub" >
-        <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_8tmvgkde.json"  background="transparent"  speed="1"  style="width:300px"  loop autoplay></lottie-player>
+        <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_8tmvgkde.json"  background="transparent"  speed="1"  style="width:500px"  loop autoplay></lottie-player>
         <p style="margin-top:20px;font-size:x-large;color:#000;padding:30px">Do you have a project in mind you wish to discuss with our expert? <br> Feel free to reach out to us: <strong>+1 (514) 292-3162</strong> <br><br> If you are unable to call us, you can fill out the form below. <br> We will get in touch with you as soon as possible.</p>
 
         </div>

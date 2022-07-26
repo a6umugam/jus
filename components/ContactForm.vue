@@ -19,7 +19,7 @@
       <textarea name="message" v-model="message"></textarea>
     </label>
     <h3 v-if="errormsg" class="error-message">{{errormsg}}</h3>
-    <button type="submit">Soumettre</button>
+    <button type="submit" style="font-size:x-large">Soumettre</button>
   </form>
   </div>
 <!-- ENGLISH -->
@@ -42,7 +42,7 @@
       <textarea name="message" v-model="message"></textarea>
     </label>
     <h3 v-if="errormsg" class="error-message">{{errormsg}}</h3>
-    <button type="submit">Submit</button>
+    <button type="submit" style="font-size:x-large">Submit</button>
   </form>
   </div>
 </template>
