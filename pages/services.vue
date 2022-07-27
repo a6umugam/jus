@@ -12,7 +12,7 @@
                 <Card :purple="true" :long="true" :iconData="'lens'" :titleData="'Conception et développement de logiciels'" :textData="'Nous pouvons vous aider à concrétiser votre logiciel idéal. Nous intégrons les meilleurs logiciels pour faciliter l’édition. Générez des rapports de données en un seul clic.'"/>
                 <Card :green="true" :long="true" :iconData="'mobile'" :titleData="'Développement d’applications mobiles/Web'" :textData="'Applications Web et mobiles conviviales. Nous concevons des applications parfaites, pour tous types d’appareils: Android et iOS.'"/>
 
-                <Card :green="true" :long="true" :iconData="'card'" :titleData="'Rentable'" :textData="'Nous offrons des solutions haut de gamme et à des tarifs abordables. Nous sommes accessibles aux propriétaires de petites et moyennes entreprises. Contactez-nous pour un devis gratuit sur votre prochain projet.'"/>
+                <Card :green="true" :long="true" :iconData="'card'" :titleData="'Prix abordables'" :textData="'Nous offrons des solutions haut de gamme et à des tarifs abordables. Nous sommes accessibles aux propriétaires de petites et moyennes entreprises. Contactez-nous pour un devis gratuit sur votre prochain projet.'"/>
                 <Card :red="true" :long="true" :iconData="'film'" :titleData="'Production vidéo'" :textData="'Nous affichons la mission de votre entreprise ou de votre organisation à but non lucratif et faisons la promotion de produits et d’idées avec des vidéos ou animations.'"/>
 
                 <Card :purple="true" :long="true" :iconData="'cart'" :titleData="'Commerce électronique'" :textData="'Notre solution est conçue pour faciliter le processus de gestion et d’exploitation de votre boutique en ligne.'"/>
@@ -21,7 +21,7 @@
 
                 <Card :green="true" :long="true" :iconData="'layout'" :titleData="'Interfaces simples'" :textData="'Nos solutions sont simples à appliquer. Tout ce dont vous avez besoin est un accès à Internet, vous permettant d’apporter des modifications où que vous soyez.'"/>
                 <Card :green="true" :long="true" :iconData="'heart'" :titleData="'Marketing des médias sociaux'" :textData="'Notre équipe conçoit et développe des campagnes de médias sociaux efficaces et engageantes pour nos clients, afin qu’ils promeuvent leur entreprise et atteignent leur audience cible.'"/>
-                <Card :red="true" :long="true" :iconData="'chart'" :titleData="'Marketing de contenu'" :textData="'Nous avons une approche collaborative pour la création de contenu et de marketing. Nous respectons vos idées, tout en déployant simultanément votre contenu, pour répondre au marché cible.'"/>
+                <Card :red="true" :long="true" :iconData="'chart'" :titleData="'Marketing de contenu'" :textData="'Nous avons une approche collaborative. Nous respectons vos idées, tout en déployant simultanément votre contenu, pour répondre au marché cible.'"/>
                 <Card :purple="true" :long="true" :iconData="'flash'" :titleData="'Assistance informatique à distance'" :textData="'Nous adaptons les systèmes informatiques de votre entreprise selon vos besoins, en fournissant et en appliquant les meilleures solutions de maintenance. Ainsi, vous pouvez vous concentrer sur ce que vous faites le mieux.'"/>
                 
         </div>

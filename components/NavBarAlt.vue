@@ -110,13 +110,14 @@ export default {
 
 .nav-buttons a{
     margin-left: 10px;
-    border: 1.5px solid #12AAF3;
-    border-radius: 5px;
-    padding: 7px 5px;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 10px;
+    padding: 9px 7px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 120px;
+    width: 125px;
+    background-image: linear-gradient( 114.2deg,  #FFDEE9 22.6%, rgba(255,180,239,1) 67.7% );
 }
 
 .nav-buttons a strong{

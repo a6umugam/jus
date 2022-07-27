@@ -30,9 +30,9 @@ export default {
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
   min-width: 2300px;
-  -moz-animation: my-animation 45s linear infinite;
-  -webkit-animation: my-animation 45s linear infinite;
-  animation: my-animation 45s linear infinite;
+  -moz-animation: my-animation 20s linear infinite;
+  -webkit-animation: my-animation 20s linear infinite;
+  animation: my-animation 20s linear infinite;
 }
 
 /* for Firefox */

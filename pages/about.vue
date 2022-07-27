@@ -6,7 +6,7 @@
               <!-- <img class="cover-image" src="~/assets/jus-about.jpg" alt="creative"> -->
 
                 <!-- <div class="space"></div> -->
-                <h1 style="margin:20px"><strong>Entreprise</strong> de <strong>conception Web</strong> à Gatineau</h1>
+                <h1 style="margin:20px"><strong>Entreprise</strong> de <strong>conception de site Web</strong> à Gatineau</h1>
 
         <!-- <img style="width:50%;z-index:-2" src="~/assets/plus_line.svg" alt="plus"> -->
 
@@ -52,7 +52,9 @@
             <div class="card">
                 <img src="~/assets/icons/award.svg" alt="people">
                 <h2>Services de haute qualité</h2>
-                <p>Nous nous engageons toujours à apporter les meilleurs résultats et des sorties spécialisées à votre projet.</p>
+                <p>Nous nous engageons à toujours vous apporter les
+                meilleurs résultats ainsi que des solutions adaptées à
+                vos projets.</p>
             </div>
 
             <div class="card">
@@ -71,9 +73,7 @@
             <div class="card">
                 <img src="~/assets/icons/flash.svg" alt="flash">
                 <h2>Technologie la plus récente</h2>
-                <p>Nous travaillons avec les toutes dernières et
-                meilleures normes de l'industrie et la technologie
-                disponible.</p>
+                <p>Nous travaillons avec les toutes dernières technologies, ayant aussi les meilleures normes de l'industrie.</p>
             </div>
 
             <!-- <div class="card">
@@ -108,7 +108,7 @@
 
         <div class="space"></div>
         <div class="end-card">
-            <h2>Faisons partie de votre équipe et créons ensemble !</h2>
+            <h2>Faisons équipe et créons ensemble</h2>
             <button v-on:click="goto('/contact')" style="font-size: x-large;">Obtenez un devis gratuit maintenant</button>
         </div>
         </div>
