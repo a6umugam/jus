@@ -39,7 +39,7 @@
             <!-- "Full-service <strong>Web</strong> solutions to help your business<strong> grow</strong>" -->
         </h1>
 
-        <img style="z-index:-2" src="~/assets/platforms.svg" alt="platforms">
+        <img style="z-index:-2;width:100%;max-width:1100px" src="~/assets/platforms.svg" alt="platforms">
 
 
         <img style="width:20%;z-index:-2" src="~/assets/plus_line.svg" alt="plus">
@@ -231,7 +231,6 @@ methods:{
 </script>
 
 <style>
-
 .animation-promo{
     width: 100%;
     max-width: 900px;
@@ -243,6 +242,7 @@ methods:{
 .animation-promo section{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .animation-promo section p{
@@ -258,22 +258,7 @@ methods:{
 
 .text-place{
     max-width: 900px;
-}
-.mid-card{
-    padding: 20px;
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
-    width: 90%;
-    /* z-index: -2; */
-    border-radius: 12px;
-}
-
-.mid-card img{
-    position: absolute;
-    width: 92%;
+    padding: 5px;
 }
 
 .gradi{
@@ -307,15 +292,7 @@ methods:{
     color: greenyellow;
 }
 
-.media-box{
-    display: flex;
-    width: 70vw;
-    justify-content: center;
-    align-content: center;
-    /* flex-flow: column; */
-    margin-bottom: 50px;
-    background-color: white;
-}
+
 
 .o-button{
     border-radius: 10px;
@@ -388,5 +365,14 @@ methods:{
     .image-card{
         flex-flow: column;
     }
+
+    .animation-promo{
+        flex-flow: column;
+    }
+
+    .lottie-anim{
+    height: 300px;
+    width: 300px;
+}
 }
 </style>

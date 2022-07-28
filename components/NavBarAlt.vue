@@ -20,15 +20,23 @@
           </div>
           <div class="nav-buttons">
               <button v-on:click="goto('/contact')" >Devis gratuit</button>
-              <a href="/indexen"><img src="~/assets/icons/language-solid.svg" alt="lang" width="28">English</a>
+              <a class="alt-button" href="/indexen"><img src="~/assets/icons/language-solid.svg" alt="lang" width="28">English</a>
           </div>
       </div>
       </div>
 
       <div class="mobile-bar">
-        <a href="/services">Nos Services</a>
-        <a href="/portfolio">Portfolio</a>
-        <a href="/about">À propos</a>
+        <section>
+            <a href="/services">Nos Services</a>
+            <a href="/about">À propos</a>
+            <a href="/contact">Contact</a>
+        </section>
+        <div class="line"></div>
+        <section>
+            <button v-on:click="goto('/contact')" >Devis gratuit</button>
+            <a href="/indexen" class="alt-button"> <img src="~/assets/icons/language-solid.svg" alt="lang" width="28"> English</a>
+        </section>
+        <div class="line"></div>
       </div>
   </div>
 <!-- ENGLISH VERSION HERE -->
@@ -52,15 +60,23 @@
           </div>
           <div class="nav-buttons">
               <button v-on:click="goto('/contacten')" >Free Quote</button>
-              <a href="/"> <img src="~/assets/icons/language-solid.svg" alt="lang" width="28"> Français</a>
+              <a href="/" class="alt-button"> <img src="~/assets/icons/language-solid.svg" alt="lang" width="28"> Français</a>
           </div>
       </div>
       </div>
 
       <div class="mobile-bar">
-        <a href="/services">Services</a>
-        <a href="/portfolio">Portfolio</a>
-        <a href="/about">About</a>
+        <section>
+            <a href="/servicesen">Services</a>
+            <a href="/abouten">About</a>
+            <a href="/contacten">Contact</a>
+        </section>
+        <div class="line"></div>
+        <section>
+            <button v-on:click="goto('/contacten')" >Free Quote</button>
+            <a href="/" class="alt-button"> <img src="~/assets/icons/language-solid.svg" alt="lang" width="28"> Français</a>
+        </section>
+        <div class="line"></div>
       </div>
   </div>
 </template>
@@ -108,7 +124,7 @@ export default {
     align-items: center;
 }
 
-.nav-buttons a{
+.alt-button{
     margin-left: 10px;
     border: 1.5px solid #d3d3d3;
     border-radius: 10px;
@@ -160,14 +176,27 @@ export default {
 }
 
 .mobile-bar{
-    background-color: #0f171f;
+    /* background-color: #0f171f; */
+    flex-flow: column;
     width: 100%;
-    justify-content: space-evenly;
-    height: 40px;
+    justify-content: center;
+    height: 100px;
     align-items: center;
     display: none;
 }
 
+.mobile-bar section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+}
+
+.line{
+    width: 100%;
+    border-bottom: #bcc8d6 0.5px solid;
+}
 .logo{
     cursor: pointer;
 }
@@ -243,9 +272,13 @@ height: 90px;
         display: none;
     }
 
+    .nav-buttons{
+        display: none;
+    }
+
     .mobile-bar{
         display: flex;
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
     }
 
     .info-bar-alt{

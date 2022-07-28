@@ -4,7 +4,7 @@
       <div class="container">
           <div class="about-container">
                 <h1 style="margin:20px">What do We <strong>Offer?</strong></h1>
-                <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_tjrlxjj9.json"  background="transparent"  speed="1"  style="width:500px"  loop autoplay></lottie-player>
+                <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_tjrlxjj9.json"  background="transparent"  speed="1"  class="srv-lottie"  loop autoplay></lottie-player>
         <img style="width:50%;z-index:-2" src="~/assets/plus_line.svg" alt="plus">
 
               <div class="cards-holder">
@@ -76,6 +76,18 @@ export default {
   color: #5d6a79;
   font-size: large;
 }
+
+
+.srv-lottie{
+  width:500px
+}
+
+@media screen and (max-width: 800px){
+  .srv-lottie{
+    width: 100%;
+  }
+}
+
 
 
 </style>

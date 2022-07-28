@@ -116,4 +116,15 @@ export default {
 .longc{
     height: 600px;
 }
+
+@media screen and (max-width: 800px){
+    .kard{
+        transform: translate(30px,50px);
+    }
+
+    .kard-container{
+        width: 330px;
+    }
+
+}
 </style>

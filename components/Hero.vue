@@ -218,14 +218,6 @@ methods:{
     color: greenyellow;
 }
 
-.media-box{
-    display: flex;
-    width: 70vw;
-    justify-content: center;
-    align-content: center;
-    /* flex-flow: column; */
-    margin-bottom: 50px;
-}
 
 .o-button{
     border-radius: 10px;

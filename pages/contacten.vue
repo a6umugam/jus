@@ -14,7 +14,7 @@
         <img class="cover-image" src="~/assets/gatineau.jpg" alt="">
 
         <div class="about-container-sub" >
-        <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_8tmvgkde.json"  background="transparent"  speed="1"  style="width:500px"  loop autoplay></lottie-player>
+        <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_8tmvgkde.json"  background="transparent"  speed="1"  class="cont-lottie"  loop autoplay></lottie-player>
         <p style="margin-top:20px;font-size:x-large;color:#000;padding:30px">Do you have a project in mind you wish to discuss with our expert? <br> Feel free to reach out to us: <strong>+1 (514) 292-3162</strong> <br><br> If you are unable to call us, you can fill out the form below. <br> We will get in touch with you as soon as possible.</p>
 
         </div>
@@ -76,6 +76,10 @@ export default {
 </script>
 
 <style>
+
+.cont-lottie{
+  width:500px
+}
 .image-bg{
   background-image: url("~assets/gatineau.jpg");
   background-size: cover;
@@ -137,5 +141,14 @@ export default {
 .contact:hover{
   background-color: #F6F873;
   color: #000;
+}
+
+@media screen and (max-width: 800px){
+  .about-container-sub{
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .cont-lottie{width: 300px;}
 }
 </style>

@@ -62,7 +62,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .info-bar{
     background-color: #48ff87;
     width: 100%;

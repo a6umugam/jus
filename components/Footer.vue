@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
       <div class="footer-content">
-          <section style="margin-right:110px">
+          <section>
               <!-- <a><strong>Office Location</strong></a> -->
               <a><img src="~/assets/icons/map_color.svg" width="28" alt="people"> Gatineau QC, <br> Canada</a>
               <a style="padding:5px"></a>
@@ -126,6 +126,7 @@ export default {
 }
 
 .rights{
+    text-align: center;
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -157,6 +158,7 @@ export default {
     display: flex;
     flex-flow: column;
     max-width: 300px;
+    margin-right:110px;
 }
 
 .footer-content section h2{
@@ -181,6 +183,15 @@ export default {
       align-items: center;
       text-align: center;
       height: 400px;
+    }
+
+    .footer-content section{
+        margin-right: 70px;
+        padding: 10px;
+    }
+
+    .blockquote{
+        margin:5px auto;
     }
 }
 </style>
