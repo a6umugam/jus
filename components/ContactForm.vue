@@ -82,7 +82,7 @@ export default {
               message: this.message,
             }),
         });
-        alert("Form submitted");
+        this.isFr ? alert("Nous vous remercions d'avoir pris contact avec nous! Nous vous répondrons dans les meilleurs délais.") : alert("Thank you for contacting us! We will respond to your enquiry as soon as we can.") 
         this.emitClose()
         }else{
             this.errormsg = "Please Enter A Valid Email"

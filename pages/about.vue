@@ -15,10 +15,10 @@
                     <p style="text-align: start;font-size: x-large;"><strong>JUS Multi Creation est une entreprise canadienne de solutions Web, offrant des services digne de confiance.</strong>
                     <br><br>
                     - Nous fournissons une gamme de services
-                    personnalisés, y compris la conception de sites
-                    Web, le développement de logiciels et
-                    d'applications, des vidéos d'animation et la
-                    conception graphique, nous faisons à peu près tout.
+                    personnalisés, y compris la conception de sites Web, le
+                    développement de logiciels et d'applications, des vidéos
+                    d'animation et la conception graphique. Nous faisons à
+                    peu près tout.
                     <br><br>
                     - Notre équipe d'experts de haut niveau propose des
                     solutions de conception efficaces, attrayantes et
@@ -44,7 +44,7 @@
 
         
 
-              <h1>Nous nous <strong>soucions</strong> des <strong>résultats</strong> autant <strong>que vous !!!</strong></h1>
+              <h1>Nous nous <strong>soucions</strong> des <strong>résultats</strong> autant <strong>que vous !</strong></h1>
 
         <img style="width:40%;z-index:-2" src="~/assets/plus_line.svg" alt="plus">
 

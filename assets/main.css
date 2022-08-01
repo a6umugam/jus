@@ -183,7 +183,7 @@ h1 strong{
   background-repeat: no-repeat;
   background-blend-mode: overlay;
   border-radius: 20px;
-  /* background-image: url("~assets/diagram-bg.svg"); */
+  background-image: url("~assets/diagram-bg.svg");
 }
 
 .end-card h2{

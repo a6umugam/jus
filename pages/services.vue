@@ -8,7 +8,7 @@
         <img style="width:50%;z-index:-2" src="~/assets/plus_line.svg" alt="plus">
 
               <div class="cards-holder">
-                <Card :red="true" :long="true" :iconData="'globe'" :titleData="'Conception de site Web'" :textData="'Comprendre le contenu et la structure est un aspect clé de la conception Web. Conception de site Web réactif - une conception qui s’adapte à chaque écran. Nous avons la meilleure conception de site Web; nous voulons que votre site Web attire plus de trafic.'"/>
+                <Card :red="true" :long="true" :iconData="'globe'" :titleData="'Conception de site Web'" :textData="'Comprendre le contenu et la structure est un aspect clé de la conception Web. La conception de site Web réactif est une conception qui s’adapte à chaque écran. Nous avons la meilleure conception de site Web; nous voulons que votre site Web attire plus de trafic.'"/>
                 <Card :purple="true" :long="true" :iconData="'lens'" :titleData="'Conception et développement de logiciels'" :textData="'Nous pouvons vous aider à concrétiser votre logiciel idéal. Nous intégrons les meilleurs logiciels pour faciliter l’édition. Générez des rapports de données en un seul clic.'"/>
                 <Card :green="true" :long="true" :iconData="'mobile'" :titleData="'Développement d’applications mobiles/Web'" :textData="'Applications Web et mobiles conviviales. Nous concevons des applications parfaites, pour tous types d’appareils: Android et iOS.'"/>
 
@@ -20,8 +20,8 @@
                 <Card :purple="true" :long="true" :iconData="'face'" :titleData="'Image de marque et conception de logo'" :textData="'Nous nous engageons à fournir des designs 100% uniques et innovants à nos clients. Notre logo personnalisé vous aidera sûrement à trouver une identité commerciale réussie sur le marché.'"/>
 
                 <Card :green="true" :long="true" :iconData="'layout'" :titleData="'Interfaces simples'" :textData="'Nos solutions sont simples à appliquer. Tout ce dont vous avez besoin est un accès à Internet, vous permettant d’apporter des modifications où que vous soyez.'"/>
-                <Card :green="true" :long="true" :iconData="'heart'" :titleData="'Marketing des médias sociaux'" :textData="'Notre équipe conçoit et développe des campagnes de médias sociaux efficaces et engageantes pour nos clients, afin qu’ils promeuvent leur entreprise et atteignent leur audience cible.'"/>
-                <Card :red="true" :long="true" :iconData="'chart'" :titleData="'Marketing de contenu'" :textData="'Nous avons une approche collaborative. Nous respectons vos idées, tout en déployant simultanément votre contenu, pour répondre au marché cible.'"/>
+                <Card :green="true" :long="true" :iconData="'heart'" :titleData="'Marketing des médias sociaux'" :textData="'Notre équipe conçoit et développe des campagnes publicitaires sur les réseaux sociaux, efficaces et engageantes pour nos clients, afin de promouvoir et atteindre l’audience cible de leur entreprise.'"/>
+                <Card :red="true" :long="true" :iconData="'chart'" :titleData="'Marketing de contenu'" :textData="'Nous avons une approche collaborative. Nous respectons vos idées, tout en déployant simultanément votre contenu, pour répondre à votre marché cible.'"/>
                 <Card :purple="true" :long="true" :iconData="'flash'" :titleData="'Assistance informatique à distance'" :textData="'Nous adaptons les systèmes informatiques de votre entreprise selon vos besoins, en fournissant et en appliquant les meilleures solutions de maintenance. Ainsi, vous pouvez vous concentrer sur ce que vous faites le mieux.'"/>
                 
         </div>

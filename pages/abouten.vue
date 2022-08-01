@@ -37,7 +37,7 @@
 
         
 
-              <h1>We <strong>care</strong> about <strong>results</strong> as much <strong>as you do</strong> !!!</h1>
+              <h1>We <strong>care</strong> about <strong>results</strong> as much <strong>as you do</strong> !</h1>
 
         <img style="width:40%;z-index:-2" src="~/assets/plus_line.svg" alt="plus">
 
@@ -57,7 +57,8 @@
             <div class="card">
                 <img src="~/assets/icons/bulb.svg" alt="flash">
                 <h2>Creative Business Services</h2>
-                <p>We know design. Our team will craft a unique design based on your vision and direction.</p>
+                <p>Design is our specialty and our team will craft a unique creation
+                reflective of your vision, while following your lead.</p>
             </div>
 
             <div class="card">
@@ -87,7 +88,9 @@
             <div class="card">
                 <img src="~/assets/icons/clock.svg" alt="globe" >
                 <h2>On-time Delivery</h2>
-                <p>We don’t want delays, and neither do you? Once everything is in place, we can start your project and finish it within the agreed period.</p>
+                <p>We don’t want delays, and neither do you. Once
+                everything is in place, we can start your project and finish it within the
+                agreed time frame.</p>
             </div>
         </div>
 
@@ -95,7 +98,7 @@
         <div class="space"></div>
         <div class="end-card">
             <h2>Let us be part of your team <br> and let's create together!</h2>
-            <button v-on:click="goto('/contact')" style="font-size: x-large;">Get Free Quotation Now</button>
+            <button v-on:click="goto('/contacten')" style="font-size: x-large;">Get Free Quotation Now</button>
         </div>
         </div>
       </div>

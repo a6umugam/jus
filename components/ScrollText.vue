@@ -1,7 +1,7 @@
 <template>
     <div id="scroll-container">
         <div id="scroll-text" v-if="isFr"><p>Construisons ensemble les sites Web et les applications dont vous avez toujours rêvé. Nous créons des sites Web professionnels, beaux et uniques pour les petites et grandes entreprises.</p><div></div></div>
-        <div id="scroll-text" v-else ><p>Building the <strong>Websites</strong>  & <strong>Apps</strong>, You have Always <strong>Dreamed</strong> of. We create <strong>professional, beautiful</strong> and <strong>unique</strong> website designs for small to large businesses.</p><div></div></div>
+        <div id="scroll-text" v-else ><p>Building the <strong>Websites</strong>  & <strong>Apps</strong>, You have Always <strong>Dreamed</strong> of. We create <strong>professional and personalized</strong> Website Designs & Apps for Small and Large businesses.</p><div></div></div>
     </div>
 </template>
 

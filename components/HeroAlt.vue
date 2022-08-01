@@ -17,7 +17,7 @@
             
             <section class="text-place gradient-text">
                 <p style="font-style:italic">
-                Promote your product and idea with animated videos!
+                Promote your product and idea with animations and videos!
                 </p>
             </section>
 
@@ -63,7 +63,7 @@
                 
 
                 <h2 class="gradient-text" style="margin-top:20px">
-                We pride ourselves in guiding our clients to success - and creating intelligent solutions that minimize risks and maximize rewards.
+                We pride ourselves in guiding our clients towards success - and creating intelligent solutions that minimize risks and maximize rewards.
                 </h2>
             </div>
             </div>
@@ -177,7 +177,7 @@
 
         <img class="proc-image" src="~/assets/jus_proc_new_one.png" alt="process">
 
-        <button v-on:click="goto('/contact')" style="font-size: x-large;"> Lets Get Started</button>
+        <button v-on:click="goto('/contacten')" style="font-size: x-large;"> Lets Get Started</button>
         <div class="space"></div>
         
         <!-- <h1>Our Latest Project</h1> -->
