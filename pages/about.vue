@@ -12,7 +12,7 @@
 
 
                 <div class="line-box">
-                    <p style="text-align: start;font-size: x-large;"><strong>JUS Multi Creation est une entreprise canadienne de solutions Web, offrant des services digne de confiance.</strong>
+                    <p style="text-align: start;font-size: x-large;"><strong>JUS Multi Creation est une entreprise canadienne de solutions Web, offrant des services dignes de confiance.</strong>
                     <br><br>
                     - Nous fournissons une gamme de services
                     personnalisés, y compris la conception de sites Web, le
@@ -60,14 +60,14 @@
             <div class="card">
                 <img src="~/assets/icons/face.svg" alt="flash">
                 <h2>Soutien amical</h2>
-                <p>Nous avons une passion pour le design, nous aimons ce que nous faisons et nous savons que vous aimerez travailler avec nous.</p>
+                <p>Nous avons une passion pour la conception web, nous aimons ce que nous faisons et nous savons que vous aimerez travailler avec nous.</p>
             </div>
 
             <div class="card">
                 <img src="~/assets/icons/bulb.svg" alt="flash">
                 <h2>Services aux entreprises créatives</h2>
-                <p>Nous connaissons le design. Notre équipe
-                créera un design unique, suivant votre vision et votre direction.</p>
+                <p>Nous connaissons la conception web. Notre équipe
+                créera une conception unique, suivant votre vision et vos directives.</p>
             </div>
 
             <div class="card">

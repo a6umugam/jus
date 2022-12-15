@@ -84,7 +84,7 @@
 
                 <Card :red="true" :iconData="'people'" :titleData="'Expertise informatique'" :textData="'Nous avons plus de 30 professionnels formés dans une gamme de domaines technologiques. Notre objectif est simple, vous offrir la meilleure expérience possible.'"/>
                 <Card :purple="true" :iconData="'clock'" :titleData="'Assistance 24h/7'" :textData="'Nous offrons notre assistance 24h/24 et 7j/7 à tous nos précieux clients. Si vous avez des questions ou rencontrez des problèmes, nous vous répondrons dans un délai de 30 minutes.'"/>
-                <Card :green="true" :iconData="'card'" :titleData="'Abordable'" :textData="'Nos services sont abordables et adaptés à votre budget. Nous ne vous surchargons pas.'"/>
+                <Card :green="true" :iconData="'card'" :titleData="'Abordable'" :textData="'Nos services sont abordables et adaptés à votre budget. Nous ne vous surchargeons pas.'"/>
 
             <!-- <div class="thecard">
                 <div class="thefront">
